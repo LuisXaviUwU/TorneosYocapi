@@ -563,6 +563,7 @@
     </nav>
 
     <div class="sidebar-footer">
+      <button class="logout-btn" onclick="exportStaticSnapshot()" style="background:var(--blue); color:white; margin-bottom:8px; border:none; border-radius:6px; font-weight:700;">Exportar Offline</button>
       <a class="pub-link" href="../index.html" target="_blank">Vista Pública</a>
       <button class="logout-btn" onclick="doLogout()">Cerrar Sesión</button>
     </div>
@@ -966,6 +967,34 @@ function activateApp() {
   fetchDashboard();
   loadConfigValues();
   setInterval(fetchDashboard, 15000);
+}
+
+function logout() {
+  doLogout();
+}
+
+async function exportStaticSnapshot() {
+  try {
+    showToast('Generando historial...', 'info');
+    const res = await fetch(`${API}/export_snapshot`);
+    if (!res.ok) throw new Error('Error al exportar.');
+    const data = await res.json();
+    
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'snapshot.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    
+    showToast('Archivo snapshot.json descargado con éxito.', 'success');
+  } catch (err) {
+    console.error(err);
+    showToast('Error al descargar el historial offline.', 'error');
+  }
 }
 
 function doLogout() {
