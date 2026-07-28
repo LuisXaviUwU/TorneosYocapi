@@ -3325,9 +3325,15 @@
       modal.classList.add('active');
 
       try {
-        const res = await fetch(`${API_BASE}/players/${username}/details`);
-        if (!res.ok) throw new Error('API error');
-        const data = await res.json();
+        let data;
+        // Si estamos en modo offline, leer del snapshot sin tocar el API
+        if (window.OFFLINE_SNAPSHOT && window.OFFLINE_SNAPSHOT.players && window.OFFLINE_SNAPSHOT.players[username]) {
+          data = window.OFFLINE_SNAPSHOT.players[username];
+        } else {
+          const res = await fetch(`${API_BASE}/players/${username}/details`);
+          if (!res.ok) throw new Error('API error');
+          data = await res.json();
+        }
         
         const p = data.player;
         const s = data.summary;
@@ -3430,6 +3436,21 @@
           </div>
         `;
       } catch (err) {
+        // Último recurso: intentar cargar snapshot en este momento si no está cargado aún
+        try {
+          if (!window.OFFLINE_SNAPSHOT) {
+            const snapRes = await fetch(`assets/data/snapshot.json?_t=${Date.now()}`);
+            if (snapRes.ok) {
+              window.OFFLINE_SNAPSHOT = await snapRes.json();
+            }
+          }
+          const snap = window.OFFLINE_SNAPSHOT;
+          if (snap && snap.players && snap.players[username]) {
+            // Re-open using snapshot data (recursive call won't loop since OFFLINE_SNAPSHOT is now set)
+            await openPlayerModal(username);
+            return;
+          }
+        } catch (snapErr) { /* ignorar */ }
         body.innerHTML = '<div class="empty-msg" style="padding:40px; color:#ff4d4d">Error al cargar el perfil.</div>';
       }
     }
