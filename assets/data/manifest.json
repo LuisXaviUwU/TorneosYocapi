@@ -1,0 +1,11 @@
+﻿{
+  "snapshots": [
+    {
+      "file": "snapshot.json",
+      "label": "Estado Actual del Torneo",
+      "date": "2026-07-28",
+      "description": "Snapshot despues de la partida 4.",
+      "top3": ["yocapi_pr", "NV BruteKitagawa", "Francis_Punch"]
+    }
+  ]
+}
