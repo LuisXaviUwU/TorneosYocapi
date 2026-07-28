@@ -3518,64 +3518,48 @@
     let lastStandingsHash = '';
     let lastMatchesHash = '';
 
-    /* ── Detect offline (GitHub Pages) ───────────────────────── */
-    const IS_GITHUB_PAGES = !['localhost', '127.0.0.1'].includes(location.hostname);
+    let isOfflineMode = false;
 
     async function loadStandings() {
+      if (isOfflineMode) return; // Ya estamos en offline fijo, no intentar mas.
+
       const dot = document.getElementById('conn-dot');
       const txt = document.getElementById('conn-text');
       let standings = [], matches = [], settings = { hide_names: false };
       let isOffline = false;
 
-      // On GitHub Pages, skip the API entirely — go straight to snapshot
-      if (IS_GITHUB_PAGES) {
+      try {
+        const [sRes, mRes, setRes] = await Promise.all([
+          fetch(`${API_BASE}/standings`),
+          fetch(`${API_BASE}/matches`),
+          fetch(`${API_BASE}/settings`)
+        ]);
+        if (!sRes.ok) throw new Error('API error');
+        standings = await sRes.json();
+        matches = await mRes.json();
+        settings = await setRes.json();
+        window.OFFLINE_SNAPSHOT = null;
+      } catch (err) {
+        // Fallback al snapshot si el API falla (ej. servidor apagado)
         try {
           const snapRes = await fetch(`assets/data/snapshot.json?_t=${Date.now()}`);
-          if (!snapRes.ok) throw new Error('No snapshot');
+          if (!snapRes.ok) throw new Error('No snapshot found');
           const snapshot = await snapRes.json();
           window.OFFLINE_SNAPSHOT = snapshot;
           standings = snapshot.standings || [];
           matches = snapshot.matches || [];
           settings = snapshot.settings || { hide_names: false };
           isOffline = true;
-        } catch (e) {
+          isOfflineMode = true; // No volver a intentar conexion
+        } catch (snapErr) {
+          console.error('API error and no snapshot found:', err);
           dot.className = 'conn-dot error';
-          txt.textContent = 'Sin datos';
-          document.getElementById('standings-updated').textContent = 'Sin historial guardado';
+          txt.textContent = 'Sin conexión';
+          document.getElementById('standings-updated').textContent = 'Error al cargar';
+          isOfflineMode = true; // Tampoco intentar mas
           return;
         }
-      } else {
-        // Local development: try API first, fallback to snapshot
-        try {
-          const [sRes, mRes, setRes] = await Promise.all([
-            fetch(`${API_BASE}/standings`),
-            fetch(`${API_BASE}/matches`),
-            fetch(`${API_BASE}/settings`)
-          ]);
-          if (!sRes.ok) throw new Error('API error');
-          standings = await sRes.json();
-          matches = await mRes.json();
-          settings = await setRes.json();
-          window.OFFLINE_SNAPSHOT = null;
-        } catch (err) {
-          try {
-            const snapRes = await fetch(`assets/data/snapshot.json?_t=${Date.now()}`);
-            if (!snapRes.ok) throw new Error('No snapshot found');
-            const snapshot = await snapRes.json();
-            window.OFFLINE_SNAPSHOT = snapshot;
-            standings = snapshot.standings || [];
-            matches = snapshot.matches || [];
-            settings = snapshot.settings || { hide_names: false };
-            isOffline = true;
-          } catch (snapErr) {
-            console.error('API error and no snapshot found:', err);
-            dot.className = 'conn-dot error';
-            txt.textContent = 'Sin conexión';
-            document.getElementById('standings-updated').textContent = 'Error al cargar';
-            return;
-          }
-        }
-      } // end else (local dev)
+      }
       hideNames = settings.hide_names;
       
       const banner = document.getElementById('pending-results-banner');
@@ -3633,8 +3617,9 @@
 
     /* ── Boot ────────────────────────────────────────────────── */
     loadStandings();
-    // Only poll on local (server is live). On GitHub Pages, data is static.
-    if (!IS_GITHUB_PAGES) setInterval(loadStandings, 15000);
+    setInterval(() => {
+      if (!isOfflineMode) loadStandings();
+    }, 15000);
 
 
     /* ═══════════════════════════════════════════════════════════
