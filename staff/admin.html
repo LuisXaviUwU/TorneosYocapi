@@ -563,7 +563,7 @@
     </nav>
 
     <div class="sidebar-footer">
-      <button class="logout-btn" onclick="exportStaticSnapshot()" style="background:var(--blue); color:white; margin-bottom:8px; border:none; border-radius:6px; font-weight:700;">Exportar Offline</button>
+      <button class="logout-btn" onclick="openSaveHistoryModal()" style="background:var(--blue); color:white; margin-bottom:8px; border:none; border-radius:6px; font-weight:700;">Guardar Historial</button>
       <a class="pub-link" href="../index.html" target="_blank">Vista Pública</a>
       <button class="logout-btn" onclick="doLogout()">Cerrar Sesión</button>
     </div>
@@ -929,6 +929,36 @@
   </div>
 </div>
 
+<!-- MODAL: Guardar Historial -->
+<div class="modal-overlay" id="modal-save-history">
+  <div class="modal" style="max-width:450px;">
+    <div class="modal-header">
+      <div class="modal-title">Guardar Historial de Torneo</div>
+      <button class="close-btn" onclick="closeModal('modal-save-history')">✕</button>
+    </div>
+    <div class="modal-body" style="padding:20px;">
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+        Esto creará una copia de los resultados actuales y los agregará al Historial Público automáticamente.
+      </p>
+      
+      <div class="form-group" style="margin-bottom:16px;">
+        <label style="display:block;margin-bottom:6px;font-size:12px;font-weight:700;color:var(--muted);">Nombre del Torneo</label>
+        <input type="text" id="hist-label" class="form-input" style="width:100%;" placeholder="Ej. Torneo Verano 2026 - Final" autocomplete="off">
+      </div>
+      
+      <div class="form-group" style="margin-bottom:20px;">
+        <label style="display:block;margin-bottom:6px;font-size:12px;font-weight:700;color:var(--muted);">Descripción (Opcional)</label>
+        <textarea id="hist-desc" class="form-input" style="width:100%;height:80px;resize:none;" placeholder="Ej. Resultados después de la ronda 3..."></textarea>
+      </div>
+
+      <div style="display:flex;justify-content:flex-end;gap:8px;">
+        <button class="btn btn-ghost" onclick="closeModal('modal-save-history')">Cancelar</button>
+        <button class="btn btn-primary" id="btn-save-hist" onclick="submitSaveHistory()">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- TOAST CONTAINER -->
 <div id="toast-container"></div>
 
@@ -973,27 +1003,43 @@ function logout() {
   doLogout();
 }
 
-async function exportStaticSnapshot() {
+function openSaveHistoryModal() {
+  document.getElementById('hist-label').value = '';
+  document.getElementById('hist-desc').value = '';
+  document.getElementById('modal-save-history').classList.add('active');
+  setTimeout(() => document.getElementById('hist-label').focus(), 100);
+}
+
+async function submitSaveHistory() {
+  const label = document.getElementById('hist-label').value.trim();
+  const desc = document.getElementById('hist-desc').value.trim();
+  
+  if (!label) {
+    showToast('El nombre del torneo es obligatorio', 'error');
+    return;
+  }
+  
+  const btn = document.getElementById('btn-save-hist');
+  btn.disabled = true;
+  btn.textContent = 'Guardando...';
+
   try {
-    showToast('Generando historial...', 'info');
-    const res = await fetch(`${API}/export_snapshot`);
-    if (!res.ok) throw new Error('Error al exportar.');
-    const data = await res.json();
+    const res = await fetch(`${API}/save_history`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ label: label, description: desc })
+    });
     
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'snapshot.json';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    if (!res.ok) throw new Error('Error al guardar el historial.');
     
-    showToast('Archivo snapshot.json descargado con éxito.', 'success');
+    closeModal('modal-save-history');
+    showToast('Historial guardado exitosamente. ¡Recuerda hacer push a GitHub!', 'success');
   } catch (err) {
     console.error(err);
-    showToast('Error al descargar el historial offline.', 'error');
+    showToast('Error al guardar el historial.', 'error');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Guardar';
   }
 }
 
