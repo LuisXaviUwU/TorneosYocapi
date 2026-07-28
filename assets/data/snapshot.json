@@ -1,0 +1,5198 @@
+{
+  "standings": [
+    {
+      "id": 37,
+      "username": "NV BruteKitagawa",
+      "display_name": "NV BruteKitagawa",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 169,
+      "total_kills": 40,
+      "total_placement_pts": 89,
+      "matches_played": 4
+    },
+    {
+      "id": 27,
+      "username": "Francis_Punch",
+      "display_name": "Francis_Punch",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 152,
+      "total_kills": 16,
+      "total_placement_pts": 120,
+      "matches_played": 4
+    },
+    {
+      "id": 30,
+      "username": "NoSoyAlox",
+      "display_name": "NoSoyAlox",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 141,
+      "total_kills": 13,
+      "total_placement_pts": 115,
+      "matches_played": 4
+    },
+    {
+      "id": 17,
+      "username": "QuirozIQ",
+      "display_name": "QuirozIQ",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 137,
+      "total_kills": 10,
+      "total_placement_pts": 117,
+      "matches_played": 4
+    },
+    {
+      "id": 19,
+      "username": "exotic_cold666",
+      "display_name": "exotic_cold666",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 134,
+      "total_kills": 17,
+      "total_placement_pts": 100,
+      "matches_played": 4
+    },
+    {
+      "id": 20,
+      "username": "Sebasfifas6234",
+      "display_name": "Sebasfifas6234",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 130,
+      "total_kills": 20,
+      "total_placement_pts": 90,
+      "matches_played": 4
+    },
+    {
+      "id": 24,
+      "username": "DukiPZK7461",
+      "display_name": "DukiPZK7461",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 116,
+      "total_kills": 22,
+      "total_placement_pts": 72,
+      "matches_played": 4
+    },
+    {
+      "id": 39,
+      "username": "Kgam123453",
+      "display_name": "Kgam123453",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 95,
+      "total_kills": 14,
+      "total_placement_pts": 67,
+      "matches_played": 4
+    },
+    {
+      "id": 18,
+      "username": "TTVTURVOPAPA",
+      "display_name": "TTVTURVOPAPA",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 91,
+      "total_kills": 12,
+      "total_placement_pts": 67,
+      "matches_played": 3
+    },
+    {
+      "id": 26,
+      "username": "TheKingXavi.",
+      "display_name": "TheKingXavi.",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 89,
+      "total_kills": 11,
+      "total_placement_pts": 67,
+      "matches_played": 4
+    },
+    {
+      "id": 29,
+      "username": "Max_Rosado",
+      "display_name": "Max_Rosado",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 77,
+      "total_kills": 13,
+      "total_placement_pts": 51,
+      "matches_played": 4
+    },
+    {
+      "id": 32,
+      "username": "NOOBMASTER8481",
+      "display_name": "NOOBMASTER8481",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 72,
+      "total_kills": 11,
+      "total_placement_pts": 50,
+      "matches_played": 4
+    },
+    {
+      "id": 22,
+      "username": "emifn30hz80ping",
+      "display_name": "emifn30hz80ping",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 49,
+      "total_kills": 6,
+      "total_placement_pts": 37,
+      "matches_played": 3
+    },
+    {
+      "id": 23,
+      "username": "Trance3101",
+      "display_name": "Trance3101",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 43,
+      "total_kills": 2,
+      "total_placement_pts": 39,
+      "matches_played": 3
+    },
+    {
+      "id": 21,
+      "username": "Nata Tysongg",
+      "display_name": "Nata Tysongg",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 40,
+      "total_kills": 1,
+      "total_placement_pts": 38,
+      "matches_played": 2
+    },
+    {
+      "id": 31,
+      "username": "shirday24",
+      "display_name": "shirday24",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 38,
+      "total_kills": 4,
+      "total_placement_pts": 30,
+      "matches_played": 4
+    },
+    {
+      "id": 40,
+      "username": "JINAX2310",
+      "display_name": "JINAX2310",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 33,
+      "total_kills": 8,
+      "total_placement_pts": 17,
+      "matches_played": 3
+    },
+    {
+      "id": 34,
+      "username": "Joseph011001",
+      "display_name": "Joseph011001",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 32,
+      "total_kills": 5,
+      "total_placement_pts": 22,
+      "matches_played": 3
+    },
+    {
+      "id": 36,
+      "username": "Yoshiro163830",
+      "display_name": "Yoshiro163830",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 31,
+      "total_kills": 6,
+      "total_placement_pts": 19,
+      "matches_played": 3
+    },
+    {
+      "id": 45,
+      "username": "Bambam9589",
+      "display_name": "Bambam9589",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 29,
+      "total_kills": 6,
+      "total_placement_pts": 17,
+      "matches_played": 2
+    },
+    {
+      "id": 38,
+      "username": "Velecon",
+      "display_name": "Velecon",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 26,
+      "total_kills": 0,
+      "total_placement_pts": 26,
+      "matches_played": 4
+    },
+    {
+      "id": 28,
+      "username": "iker311211",
+      "display_name": "iker311211",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 22,
+      "total_kills": 4,
+      "total_placement_pts": 14,
+      "matches_played": 1
+    },
+    {
+      "id": 25,
+      "username": "Aarongg9p",
+      "display_name": "Aarongg9p",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 17,
+      "total_kills": 0,
+      "total_placement_pts": 17,
+      "matches_played": 1
+    },
+    {
+      "id": 47,
+      "username": "yocapi_pr",
+      "display_name": "yocapi_pr",
+      "is_pro": 0,
+      "skin_name": "supergirl",
+      "role": null,
+      "total_points": 15,
+      "total_kills": 0,
+      "total_placement_pts": 15,
+      "matches_played": 4
+    },
+    {
+      "id": 33,
+      "username": "Angelazaelz1233",
+      "display_name": "Angelazaelz1233",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 13,
+      "total_kills": 4,
+      "total_placement_pts": 5,
+      "matches_played": 2
+    },
+    {
+      "id": 35,
+      "username": "humilde__17",
+      "display_name": "humilde__17",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 9,
+      "total_kills": 3,
+      "total_placement_pts": 3,
+      "matches_played": 1
+    },
+    {
+      "id": 44,
+      "username": "CHIBOL0",
+      "display_name": "CHIBOL0",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 8,
+      "total_kills": 2,
+      "total_placement_pts": 4,
+      "matches_played": 3
+    },
+    {
+      "id": 41,
+      "username": "Thedarkfunny01",
+      "display_name": "Thedarkfunny01",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 7,
+      "total_kills": 0,
+      "total_placement_pts": 7,
+      "matches_played": 3
+    },
+    {
+      "id": 48,
+      "username": "Retyet",
+      "display_name": "Retyet",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 6,
+      "total_kills": 1,
+      "total_placement_pts": 4,
+      "matches_played": 3
+    },
+    {
+      "id": 46,
+      "username": "DeathFox1213",
+      "display_name": "DeathFox1213",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 4,
+      "total_kills": 1,
+      "total_placement_pts": 2,
+      "matches_played": 3
+    },
+    {
+      "id": 43,
+      "username": "Pinkgodzillajr",
+      "display_name": "Pinkgodzillajr",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 3,
+      "total_kills": 0,
+      "total_placement_pts": 3,
+      "matches_played": 3
+    },
+    {
+      "id": 42,
+      "username": "brayan-oros07",
+      "display_name": "brayan-oros07",
+      "is_pro": 0,
+      "skin_name": null,
+      "role": null,
+      "total_points": 0,
+      "total_kills": 0,
+      "total_placement_pts": 0,
+      "matches_played": 1
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "match_number": 1,
+      "is_active": true,
+      "is_published": true
+    },
+    {
+      "id": 2,
+      "match_number": 2,
+      "is_active": true,
+      "is_published": true
+    },
+    {
+      "id": 3,
+      "match_number": 3,
+      "is_active": true,
+      "is_published": true
+    },
+    {
+      "id": 4,
+      "match_number": 4,
+      "is_active": true,
+      "is_published": true
+    }
+  ],
+  "settings": {
+    "hide_names": false
+  },
+  "players": {
+    "Aarongg9p": {
+      "player": {
+        "username": "Aarongg9p",
+        "display_name": "Aarongg9p",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 17,
+        "placement_points": 17,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 1
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 9,
+          "kills": 0,
+          "placement_points": 17,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 17
+        }
+      ],
+      "eliminations": []
+    },
+    "Angelazaelz1233": {
+      "player": {
+        "username": "Angelazaelz1233",
+        "display_name": "Angelazaelz1233",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 13,
+        "placement_points": 5,
+        "kill_points": 8,
+        "bonus_points": 0,
+        "matches_played": 2
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 17,
+          "kills": 2,
+          "placement_points": 3,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 7
+        },
+        {
+          "match_number": 2,
+          "position": 23,
+          "kills": 2,
+          "placement_points": 2,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 6
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 2,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Fusil",
+          "display_text": "Angelazaelz1233 elimino a emifn30hz80ping con Fusil (1.9 m)",
+          "time": "03:42"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Pistola",
+          "display_text": "Angelazaelz1233 elimino a NoSoyAlox con Pistola (1.9 m)",
+          "time": "02:57"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Max_Rosado",
+          "weapon": "Subfusil",
+          "display_text": "Angelazaelz1233 elimino a Max_Rosado con Subfusil (1.9 m)",
+          "time": "07:39"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "CHIBOL0",
+          "weapon": "Subfusil",
+          "display_text": "Angelazaelz1233 elimino a CHIBOL0 con Subfusil (1.9 m)",
+          "time": "04:46"
+        }
+      ]
+    },
+    "Bambam9589": {
+      "player": {
+        "username": "Bambam9589",
+        "display_name": "Bambam9589",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 29,
+        "placement_points": 17,
+        "kill_points": 12,
+        "bonus_points": 0,
+        "matches_played": 2
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 29,
+          "kills": 1,
+          "placement_points": 0,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 2,
+          "position": 9,
+          "kills": 5,
+          "placement_points": 17,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 27
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 2,
+          "eliminated": "Kgam123453",
+          "weapon": "Subfusil",
+          "display_text": "Bambam9589 elimino a Kgam123453 con Subfusil (1.9 m)",
+          "time": "06:28"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Kgam123453",
+          "weapon": "Fusil",
+          "display_text": "Bambam9589 elimino a Kgam123453 con Fusil (1.9 m)",
+          "time": "06:01"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Escopeta",
+          "display_text": "Bambam9589 elimino a TTVTURVOPAPA con Escopeta (1.9 m)",
+          "time": "04:14"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Retyet",
+          "weapon": "Escopeta",
+          "display_text": "Bambam9589 elimino a Retyet con Escopeta (1.9 m)",
+          "time": "02:29"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "CHIBOL0",
+          "weapon": "Escopeta",
+          "display_text": "Bambam9589 elimino a CHIBOL0 con Escopeta (1.9 m)",
+          "time": "01:02"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "yocapi_pr",
+          "weapon": "Fusil",
+          "display_text": "Bambam9589 elimino a yocapi_pr con Fusil (1.9 m)",
+          "time": "02:26"
+        }
+      ]
+    },
+    "CHIBOL0": {
+      "player": {
+        "username": "CHIBOL0",
+        "display_name": "CHIBOL0",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 8,
+        "placement_points": 4,
+        "kill_points": 4,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 28,
+          "kills": 1,
+          "placement_points": 0,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 2,
+          "position": 25,
+          "kills": 0,
+          "placement_points": 2,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 3,
+          "position": 23,
+          "kills": 1,
+          "placement_points": 2,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 4
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "DeathFox1213",
+          "weapon": "Pico",
+          "display_text": "CHIBOL0 elimino a DeathFox1213 con Pico (1.9 m)",
+          "time": "01:03"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "brayan-oros07",
+          "weapon": "Subfusil",
+          "display_text": "CHIBOL0 elimino a brayan-oros07 con Subfusil (1.9 m)",
+          "time": "03:46"
+        }
+      ]
+    },
+    "DeathFox1213": {
+      "player": {
+        "username": "DeathFox1213",
+        "display_name": "DeathFox1213",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 4,
+        "placement_points": 2,
+        "kill_points": 2,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 30,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        },
+        {
+          "match_number": 2,
+          "position": 26,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        },
+        {
+          "match_number": 3,
+          "position": 25,
+          "kills": 1,
+          "placement_points": 2,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 4
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Fusil",
+          "display_text": "DeathFox1213 elimino a Yoshiro163830 con Fusil (1.9 m)",
+          "time": "02:35"
+        }
+      ]
+    },
+    "Diegoelprodios": {
+      "player": {
+        "username": "Diegoelprodios",
+        "display_name": "Diegoelprodios",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 0
+      },
+      "matches": [],
+      "eliminations": []
+    },
+    "DukiPZK7461": {
+      "player": {
+        "username": "DukiPZK7461",
+        "display_name": "DukiPZK7461",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 116,
+        "placement_points": 72,
+        "kill_points": 44,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 8,
+          "kills": 11,
+          "placement_points": 18,
+          "kill_points": 22,
+          "bonus_points": 0,
+          "total_points": 40
+        },
+        {
+          "match_number": 2,
+          "position": 12,
+          "kills": 5,
+          "placement_points": 14,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 24
+        },
+        {
+          "match_number": 3,
+          "position": 5,
+          "kills": 6,
+          "placement_points": 23,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 35
+        },
+        {
+          "match_number": 4,
+          "position": 9,
+          "kills": 0,
+          "placement_points": 17,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 17
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a NV BruteKitagawa con Escopeta (1.9 m)",
+          "time": "12:28"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Francis_Punch",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a Francis_Punch con Escopeta (1.9 m)",
+          "time": "11:38"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a NV BruteKitagawa con Escopeta (1.9 m)",
+          "time": "10:03"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Joseph011001",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a Joseph011001 con Escopeta (1.9 m)",
+          "time": "08:52"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a Thedarkfunny01 con Escopeta (1.9 m)",
+          "time": "05:24"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a Pinkgodzillajr con Escopeta (1.9 m)",
+          "time": "02:58"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "JINAX2310",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a JINAX2310 con Fusil (1.9 m)",
+          "time": "07:23"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Trance3101",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a Trance3101 con Escopeta (1.9 m)",
+          "time": "06:08"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a NV BruteKitagawa con Fusil (1.9 m)",
+          "time": "05:29"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a Yoshiro163830 con Escopeta (1.9 m)",
+          "time": "05:05"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a NOOBMASTER8481 con Escopeta (1.9 m)",
+          "time": "02:46"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "exotic_cold666",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a exotic_cold666 con Escopeta (1.9 m)",
+          "time": "12:07"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Nata Tysongg",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a Nata Tysongg con Fusil (1.9 m)",
+          "time": "09:46"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Max_Rosado",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a Max_Rosado con Fusil (1.9 m)",
+          "time": "09:19"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a NOOBMASTER8481 con Escopeta (1.9 m)",
+          "time": "07:53"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a NOOBMASTER8481 con Fusil (1.9 m)",
+          "time": "07:31"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Max_Rosado",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a Max_Rosado con Fusil (1.9 m)",
+          "time": "07:10"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a Yoshiro163830 con Fusil (1.9 m)",
+          "time": "06:46"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a NV BruteKitagawa con Fusil (1.9 m)",
+          "time": "06:34"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "shirday24",
+          "weapon": "Fusil",
+          "display_text": "DukiPZK7461 elimino a shirday24 con Fusil (1.9 m)",
+          "time": "06:13"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "DeathFox1213",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a DeathFox1213 con Escopeta (1.9 m)",
+          "time": "03:38"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Retyet",
+          "weapon": "Escopeta",
+          "display_text": "DukiPZK7461 elimino a Retyet con Escopeta (1.9 m)",
+          "time": "02:39"
+        }
+      ]
+    },
+    "Francis_Punch": {
+      "player": {
+        "username": "Francis_Punch",
+        "display_name": "Francis_Punch",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 152,
+        "placement_points": 120,
+        "kill_points": 32,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 11,
+          "kills": 2,
+          "placement_points": 15,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 19
+        },
+        {
+          "match_number": 2,
+          "position": 1,
+          "kills": 6,
+          "placement_points": 42,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 54
+        },
+        {
+          "match_number": 3,
+          "position": 6,
+          "kills": 6,
+          "placement_points": 21,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 33
+        },
+        {
+          "match_number": 4,
+          "position": 1,
+          "kills": 2,
+          "placement_points": 42,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 46
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 4,
+          "eliminated": "Velecon",
+          "weapon": "Subfusil",
+          "display_text": "Francis_Punch elimino a Velecon con Subfusil (1.9 m)",
+          "time": "11:11"
+        },
+        {
+          "match_number": 4,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Escopeta",
+          "display_text": "Francis_Punch elimino a Sebasfifas6234 con Escopeta (1.9 m)",
+          "time": "10:29"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Fusil",
+          "display_text": "Francis_Punch elimino a NoSoyAlox con Fusil (1.9 m)",
+          "time": "08:38"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Escopeta",
+          "display_text": "Francis_Punch elimino a TTVTURVOPAPA con Escopeta (1.9 m)",
+          "time": "07:42"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "shirday24",
+          "weapon": "Escopeta",
+          "display_text": "Francis_Punch elimino a shirday24 con Escopeta (1.9 m)",
+          "time": "05:32"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Fusil",
+          "display_text": "Francis_Punch elimino a TTVTURVOPAPA con Fusil (1.9 m)",
+          "time": "04:55"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Escopeta",
+          "display_text": "Francis_Punch elimino a NOOBMASTER8481 con Escopeta (1.9 m)",
+          "time": "02:03"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Max_Rosado",
+          "weapon": "Pistola",
+          "display_text": "Francis_Punch elimino a Max_Rosado con Pistola (1.9 m)",
+          "time": "00:54"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Fusil",
+          "display_text": "Francis_Punch elimino a NoSoyAlox con Fusil (1.9 m)",
+          "time": "13:31"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Fusil",
+          "display_text": "Francis_Punch elimino a Sebasfifas6234 con Fusil (1.9 m)",
+          "time": "08:01"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Subfusil",
+          "display_text": "Francis_Punch elimino a NOOBMASTER8481 con Subfusil (1.9 m)",
+          "time": "07:36"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Bambam9589",
+          "weapon": "Subfusil",
+          "display_text": "Francis_Punch elimino a Bambam9589 con Subfusil (1.9 m)",
+          "time": "05:34"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Angelazaelz1233",
+          "weapon": "Escopeta",
+          "display_text": "Francis_Punch elimino a Angelazaelz1233 con Escopeta (1.9 m)",
+          "time": "04:18"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Fusil",
+          "display_text": "Francis_Punch elimino a NoSoyAlox con Fusil (1.9 m)",
+          "time": "02:41"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Subfusil",
+          "display_text": "Francis_Punch elimino a NoSoyAlox con Subfusil (1.9 m)",
+          "time": "08:40"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "JINAX2310",
+          "weapon": "Escopeta",
+          "display_text": "Francis_Punch elimino a JINAX2310 con Escopeta (1.9 m)",
+          "time": "05:23"
+        }
+      ]
+    },
+    "G3MPL4YDRO1D": {
+      "player": {
+        "username": "G3MPL4YDRO1D",
+        "display_name": "G3MPL4YDRO1D",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 0
+      },
+      "matches": [],
+      "eliminations": []
+    },
+    "JINAX2310": {
+      "player": {
+        "username": "JINAX2310",
+        "display_name": "JINAX2310",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 33,
+        "placement_points": 17,
+        "kill_points": 16,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 24,
+          "kills": 1,
+          "placement_points": 2,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 4
+        },
+        {
+          "match_number": 2,
+          "position": 14,
+          "kills": 6,
+          "placement_points": 12,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 24
+        },
+        {
+          "match_number": 3,
+          "position": 19,
+          "kills": 1,
+          "placement_points": 3,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 5
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Retyet",
+          "weapon": "Subfusil",
+          "display_text": "JINAX2310 elimino a Retyet con Subfusil (1.9 m)",
+          "time": "04:36"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Max_Rosado",
+          "weapon": "Fusil",
+          "display_text": "JINAX2310 elimino a Max_Rosado con Fusil (1.9 m)",
+          "time": "06:25"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Bambam9589",
+          "weapon": "Escopeta",
+          "display_text": "JINAX2310 elimino a Bambam9589 con Escopeta (1.9 m)",
+          "time": "06:07"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "shirday24",
+          "weapon": "Subfusil",
+          "display_text": "JINAX2310 elimino a shirday24 con Subfusil (1.9 m)",
+          "time": "03:53"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "DeathFox1213",
+          "weapon": "Subfusil",
+          "display_text": "JINAX2310 elimino a DeathFox1213 con Subfusil (1.9 m)",
+          "time": "02:37"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Fusil",
+          "display_text": "JINAX2310 elimino a Thedarkfunny01 con Fusil (1.9 m)",
+          "time": "01:47"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Fusil",
+          "display_text": "JINAX2310 elimino a Yoshiro163830 con Fusil (1.9 m)",
+          "time": "01:13"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Escopeta",
+          "display_text": "JINAX2310 elimino a Sebasfifas6234 con Escopeta (1.9 m)",
+          "time": "04:09"
+        }
+      ]
+    },
+    "Joseph011001": {
+      "player": {
+        "username": "Joseph011001",
+        "display_name": "Joseph011001",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 32,
+        "placement_points": 22,
+        "kill_points": 10,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 18,
+          "kills": 2,
+          "placement_points": 3,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 7
+        },
+        {
+          "match_number": 2,
+          "position": 16,
+          "kills": 1,
+          "placement_points": 3,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 5
+        },
+        {
+          "match_number": 3,
+          "position": 10,
+          "kills": 2,
+          "placement_points": 16,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 20
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Kgam123453",
+          "weapon": "Subfusil",
+          "display_text": "Joseph011001 elimino a Kgam123453 con Subfusil (1.9 m)",
+          "time": "07:28"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Escopeta",
+          "display_text": "Joseph011001 elimino a Yoshiro163830 con Escopeta (1.9 m)",
+          "time": "06:35"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Velecon",
+          "weapon": "Escopeta",
+          "display_text": "Joseph011001 elimino a Velecon con Escopeta (1.9 m)",
+          "time": "04:30"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "DeathFox1213",
+          "weapon": "Escopeta",
+          "display_text": "Joseph011001 elimino a DeathFox1213 con Escopeta (1.9 m)",
+          "time": "04:30"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Velecon",
+          "weapon": "Fusil",
+          "display_text": "Joseph011001 elimino a Velecon con Fusil (1.9 m)",
+          "time": "01:30"
+        }
+      ]
+    },
+    "Kgam123453": {
+      "player": {
+        "username": "Kgam123453",
+        "display_name": "Kgam123453",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 95,
+        "placement_points": 67,
+        "kill_points": 28,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 23,
+          "kills": 3,
+          "placement_points": 2,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 8
+        },
+        {
+          "match_number": 2,
+          "position": 5,
+          "kills": 5,
+          "placement_points": 23,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 33
+        },
+        {
+          "match_number": 3,
+          "position": 7,
+          "kills": 6,
+          "placement_points": 19,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 31
+        },
+        {
+          "match_number": 4,
+          "position": 5,
+          "kills": 0,
+          "placement_points": 23,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 23
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Fusil",
+          "display_text": "Kgam123453 elimino a TheKingXavi. con Fusil (1.9 m)",
+          "time": "10:03"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Subfusil",
+          "display_text": "Kgam123453 elimino a TheKingXavi. con Subfusil (1.9 m)",
+          "time": "09:24"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Escopeta",
+          "display_text": "Kgam123453 elimino a NOOBMASTER8481 con Escopeta (1.9 m)",
+          "time": "06:58"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "QuirozIQ",
+          "weapon": "Subfusil",
+          "display_text": "Kgam123453 elimino a QuirozIQ con Subfusil (1.9 m)",
+          "time": "06:50"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "shirday24",
+          "weapon": "Subfusil",
+          "display_text": "Kgam123453 elimino a shirday24 con Subfusil (1.9 m)",
+          "time": "06:08"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Joseph011001",
+          "weapon": "Fusil",
+          "display_text": "Kgam123453 elimino a Joseph011001 con Fusil (1.9 m)",
+          "time": "04:06"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Escopeta",
+          "display_text": "Kgam123453 elimino a TheKingXavi. con Escopeta (1.9 m)",
+          "time": "11:18"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "QuirozIQ",
+          "weapon": "Fusil",
+          "display_text": "Kgam123453 elimino a QuirozIQ con Fusil (1.9 m)",
+          "time": "10:45"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Fusil",
+          "display_text": "Kgam123453 elimino a Yoshiro163830 con Fusil (1.9 m)",
+          "time": "07:27"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Subfusil",
+          "display_text": "Kgam123453 elimino a Thedarkfunny01 con Subfusil (1.9 m)",
+          "time": "04:50"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Escopeta",
+          "display_text": "Kgam123453 elimino a Pinkgodzillajr con Escopeta (1.9 m)",
+          "time": "03:56"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Joseph011001",
+          "weapon": "Subfusil",
+          "display_text": "Kgam123453 elimino a Joseph011001 con Subfusil (1.9 m)",
+          "time": "05:27"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "brayan-oros07",
+          "weapon": "Fusil",
+          "display_text": "Kgam123453 elimino a brayan-oros07 con Fusil (1.9 m)",
+          "time": "05:08"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "DeathFox1213",
+          "weapon": "Fusil",
+          "display_text": "Kgam123453 elimino a DeathFox1213 con Fusil (1.9 m)",
+          "time": "02:00"
+        }
+      ]
+    },
+    "Lalonjudagm": {
+      "player": {
+        "username": "Lalonjudagm",
+        "display_name": "Lalonjudagm",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 0
+      },
+      "matches": [],
+      "eliminations": []
+    },
+    "Max_Rosado": {
+      "player": {
+        "username": "Max_Rosado",
+        "display_name": "Max_Rosado",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 77,
+        "placement_points": 51,
+        "kill_points": 26,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 13,
+          "kills": 4,
+          "placement_points": 13,
+          "kill_points": 8,
+          "bonus_points": 0,
+          "total_points": 21
+        },
+        {
+          "match_number": 2,
+          "position": 15,
+          "kills": 4,
+          "placement_points": 11,
+          "kill_points": 8,
+          "bonus_points": 0,
+          "total_points": 19
+        },
+        {
+          "match_number": 3,
+          "position": 14,
+          "kills": 5,
+          "placement_points": 12,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 22
+        },
+        {
+          "match_number": 4,
+          "position": 11,
+          "kills": 0,
+          "placement_points": 15,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 15
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "JINAX2310",
+          "weapon": "Fusil",
+          "display_text": "Max_Rosado elimino a JINAX2310 con Fusil (1.9 m)",
+          "time": "05:39"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Fusil",
+          "display_text": "Max_Rosado elimino a Sebasfifas6234 con Fusil (1.9 m)",
+          "time": "04:26"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Retyet",
+          "weapon": "Fusil",
+          "display_text": "Max_Rosado elimino a Retyet con Fusil (1.9 m)",
+          "time": "03:49"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Fusil",
+          "display_text": "Max_Rosado elimino a Thedarkfunny01 con Fusil (1.9 m)",
+          "time": "02:46"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Velecon",
+          "weapon": "Fusil",
+          "display_text": "Max_Rosado elimino a Velecon con Fusil (1.9 m)",
+          "time": "02:06"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Joseph011001",
+          "weapon": "Subfusil",
+          "display_text": "Max_Rosado elimino a Joseph011001 con Subfusil (1.9 m)",
+          "time": "05:56"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Escopeta",
+          "display_text": "Max_Rosado elimino a Thedarkfunny01 con Escopeta (1.9 m)",
+          "time": "03:39"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "yocapi_pr",
+          "weapon": "Fusil",
+          "display_text": "Max_Rosado elimino a yocapi_pr con Fusil (1.9 m)",
+          "time": "01:44"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Velecon",
+          "weapon": "Pistola",
+          "display_text": "Max_Rosado elimino a Velecon con Pistola (1.9 m)",
+          "time": "00:56"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Trance3101",
+          "weapon": "Escopeta",
+          "display_text": "Max_Rosado elimino a Trance3101 con Escopeta (1.9 m)",
+          "time": "08:57"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Kgam123453",
+          "weapon": "Escopeta",
+          "display_text": "Max_Rosado elimino a Kgam123453 con Escopeta (1.9 m)",
+          "time": "04:18"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "yocapi_pr",
+          "weapon": "Fusil",
+          "display_text": "Max_Rosado elimino a yocapi_pr con Fusil (1.9 m)",
+          "time": "04:01"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Escopeta",
+          "display_text": "Max_Rosado elimino a TTVTURVOPAPA con Escopeta (1.9 m)",
+          "time": "02:16"
+        }
+      ]
+    },
+    "NOOBMASTER8481": {
+      "player": {
+        "username": "NOOBMASTER8481",
+        "display_name": "NOOBMASTER8481",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 72,
+        "placement_points": 50,
+        "kill_points": 22,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 16,
+          "kills": 7,
+          "placement_points": 3,
+          "kill_points": 14,
+          "bonus_points": 0,
+          "total_points": 17
+        },
+        {
+          "match_number": 2,
+          "position": 11,
+          "kills": 2,
+          "placement_points": 15,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 19
+        },
+        {
+          "match_number": 3,
+          "position": 15,
+          "kills": 2,
+          "placement_points": 11,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 15
+        },
+        {
+          "match_number": 4,
+          "position": 6,
+          "kills": 0,
+          "placement_points": 21,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 21
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Subfusil",
+          "display_text": "NOOBMASTER8481 elimino a Yoshiro163830 con Subfusil (1.9 m)",
+          "time": "04:36"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "JINAX2310",
+          "weapon": "Escopeta",
+          "display_text": "NOOBMASTER8481 elimino a JINAX2310 con Escopeta (1.9 m)",
+          "time": "02:57"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "DukiPZK7461",
+          "weapon": "Escopeta",
+          "display_text": "NOOBMASTER8481 elimino a DukiPZK7461 con Escopeta (1.9 m)",
+          "time": "06:18"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Fusil",
+          "display_text": "NOOBMASTER8481 elimino a emifn30hz80ping con Fusil (1.9 m)",
+          "time": "05:31"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Angelazaelz1233",
+          "weapon": "Subfusil",
+          "display_text": "NOOBMASTER8481 elimino a Angelazaelz1233 con Subfusil (1.9 m)",
+          "time": "07:52"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Subfusil",
+          "display_text": "NOOBMASTER8481 elimino a NV BruteKitagawa con Subfusil (1.9 m)",
+          "time": "06:14"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "QuirozIQ",
+          "weapon": "Escopeta",
+          "display_text": "NOOBMASTER8481 elimino a QuirozIQ con Escopeta (1.9 m)",
+          "time": "05:00"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Velecon",
+          "weapon": "Escopeta",
+          "display_text": "NOOBMASTER8481 elimino a Velecon con Escopeta (1.9 m)",
+          "time": "04:40"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Retyet",
+          "weapon": "Fusil",
+          "display_text": "NOOBMASTER8481 elimino a Retyet con Fusil (1.9 m)",
+          "time": "03:35"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Escopeta",
+          "display_text": "NOOBMASTER8481 elimino a Yoshiro163830 con Escopeta (1.9 m)",
+          "time": "03:13"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "humilde__17",
+          "weapon": "Escopeta",
+          "display_text": "NOOBMASTER8481 elimino a humilde__17 con Escopeta (1.9 m)",
+          "time": "01:27"
+        }
+      ]
+    },
+    "NV BruteKitagawa": {
+      "player": {
+        "username": "NV BruteKitagawa",
+        "display_name": "NV BruteKitagawa",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 169,
+        "placement_points": 89,
+        "kill_points": 80,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 21,
+          "kills": 3,
+          "placement_points": 2,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 8
+        },
+        {
+          "match_number": 2,
+          "position": 4,
+          "kills": 16,
+          "placement_points": 26,
+          "kill_points": 32,
+          "bonus_points": 0,
+          "total_points": 58
+        },
+        {
+          "match_number": 3,
+          "position": 4,
+          "kills": 15,
+          "placement_points": 26,
+          "kill_points": 30,
+          "bonus_points": 0,
+          "total_points": 56
+        },
+        {
+          "match_number": 4,
+          "position": 2,
+          "kills": 6,
+          "placement_points": 35,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 47
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 4,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Arma #50",
+          "display_text": "NV BruteKitagawa se elimino con Arma #50 (1.9 m)",
+          "time": "19:37"
+        },
+        {
+          "match_number": 4,
+          "eliminated": "Kgam123453",
+          "weapon": "Fusil",
+          "display_text": "NV BruteKitagawa elimino a Kgam123453 con Fusil (1.9 m)",
+          "time": "15:12"
+        },
+        {
+          "match_number": 4,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Fusil",
+          "display_text": "NV BruteKitagawa elimino a NOOBMASTER8481 con Fusil (1.9 m)",
+          "time": "11:36"
+        },
+        {
+          "match_number": 4,
+          "eliminated": "DukiPZK7461",
+          "weapon": "Fusil",
+          "display_text": "NV BruteKitagawa elimino a DukiPZK7461 con Fusil (1.9 m)",
+          "time": "10:00"
+        },
+        {
+          "match_number": 4,
+          "eliminated": "exotic_cold666",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a exotic_cold666 con Escopeta (1.9 m)",
+          "time": "08:30"
+        },
+        {
+          "match_number": 4,
+          "eliminated": "Max_Rosado",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Max_Rosado con Subfusil (1.9 m)",
+          "time": "05:37"
+        },
+        {
+          "match_number": 4,
+          "eliminated": "yocapi_pr",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a yocapi_pr con Subfusil (1.9 m)",
+          "time": "04:51"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "DukiPZK7461",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a DukiPZK7461 con Subfusil (1.9 m)",
+          "time": "12:28"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "exotic_cold666",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a exotic_cold666 con Escopeta (1.9 m)",
+          "time": "11:11"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Nata Tysongg",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Nata Tysongg con Subfusil (1.9 m)",
+          "time": "08:13"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a emifn30hz80ping con Subfusil (1.9 m)",
+          "time": "07:36"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "exotic_cold666",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a exotic_cold666 con Subfusil (1.9 m)",
+          "time": "07:25"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Trance3101",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a Trance3101 con Escopeta (1.9 m)",
+          "time": "06:31"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Joseph011001",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Joseph011001 con Subfusil (1.9 m)",
+          "time": "06:01"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a NoSoyAlox con Escopeta (1.9 m)",
+          "time": "05:45"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Nata Tysongg",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a Nata Tysongg con Escopeta (1.9 m)",
+          "time": "05:24"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "shirday24",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a shirday24 con Subfusil (1.9 m)",
+          "time": "05:03"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Kgam123453",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Kgam123453 con Subfusil (1.9 m)",
+          "time": "04:39"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "CHIBOL0",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a CHIBOL0 con Subfusil (1.9 m)",
+          "time": "04:07"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a emifn30hz80ping con Escopeta (1.9 m)",
+          "time": "03:41"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "DeathFox1213",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a DeathFox1213 con Escopeta (1.9 m)",
+          "time": "03:21"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "DeathFox1213",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a DeathFox1213 con Escopeta (1.9 m)",
+          "time": "01:53"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "QuirozIQ",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a QuirozIQ con Escopeta (1.9 m)",
+          "time": "11:25"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a TTVTURVOPAPA con Escopeta (1.9 m)",
+          "time": "10:05"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Bambam9589",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Bambam9589 con Subfusil (1.9 m)",
+          "time": "09:57"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a TheKingXavi. con Escopeta (1.9 m)",
+          "time": "09:21"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Francis_Punch",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Francis_Punch con Subfusil (1.9 m)",
+          "time": "08:06"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "DukiPZK7461",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a DukiPZK7461 con Subfusil (1.9 m)",
+          "time": "07:35"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Joseph011001",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Joseph011001 con Subfusil (1.9 m)",
+          "time": "05:26"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Velecon",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a Velecon con Escopeta (1.9 m)",
+          "time": "05:06"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "shirday24",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a shirday24 con Escopeta (1.9 m)",
+          "time": "04:37"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Retyet",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a Retyet con Subfusil (1.9 m)",
+          "time": "04:14"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "CHIBOL0",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a CHIBOL0 con Subfusil (1.9 m)",
+          "time": "03:43"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "DeathFox1213",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a DeathFox1213 con Escopeta (1.9 m)",
+          "time": "03:22"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Angelazaelz1233",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a Angelazaelz1233 con Escopeta (1.9 m)",
+          "time": "03:08"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "yocapi_pr",
+          "weapon": "Pistola",
+          "display_text": "NV BruteKitagawa elimino a yocapi_pr con Pistola (1.9 m)",
+          "time": "02:39"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "shirday24",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a shirday24 con Subfusil (1.9 m)",
+          "time": "02:22"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Subfusil",
+          "display_text": "NV BruteKitagawa elimino a NOOBMASTER8481 con Subfusil (1.9 m)",
+          "time": "01:04"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Yoshiro163830",
+          "weapon": "Fusil",
+          "display_text": "NV BruteKitagawa elimino a Yoshiro163830 con Fusil (1.9 m)",
+          "time": "05:42"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a Pinkgodzillajr con Escopeta (1.9 m)",
+          "time": "05:06"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "brayan-oros07",
+          "weapon": "Escopeta",
+          "display_text": "NV BruteKitagawa elimino a brayan-oros07 con Escopeta (1.9 m)",
+          "time": "04:23"
+        }
+      ]
+    },
+    "Nata Tysongg": {
+      "player": {
+        "username": "Nata Tysongg",
+        "display_name": "Nata Tysongg",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 40,
+        "placement_points": 38,
+        "kill_points": 2,
+        "bonus_points": 0,
+        "matches_played": 2
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 5,
+          "kills": 0,
+          "placement_points": 23,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 23
+        },
+        {
+          "match_number": 3,
+          "position": 11,
+          "kills": 1,
+          "placement_points": 15,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 17
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Trance3101",
+          "weapon": "Subfusil",
+          "display_text": "Nata Tysongg elimino a Trance3101 con Subfusil (1.9 m)",
+          "time": "07:10"
+        }
+      ]
+    },
+    "NoSoyAlox": {
+      "player": {
+        "username": "NoSoyAlox",
+        "display_name": "NoSoyAlox",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 141,
+        "placement_points": 115,
+        "kill_points": 26,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 14,
+          "kills": 5,
+          "placement_points": 12,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 22
+        },
+        {
+          "match_number": 2,
+          "position": 2,
+          "kills": 4,
+          "placement_points": 35,
+          "kill_points": 8,
+          "bonus_points": 0,
+          "total_points": 43
+        },
+        {
+          "match_number": 3,
+          "position": 1,
+          "kills": 3,
+          "placement_points": 42,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 48
+        },
+        {
+          "match_number": 4,
+          "position": 4,
+          "kills": 1,
+          "placement_points": 26,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 28
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 4,
+          "eliminated": "shirday24",
+          "weapon": "Subfusil",
+          "display_text": "NoSoyAlox elimino a shirday24 con Subfusil (1.9 m)",
+          "time": "04:56"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "exotic_cold666",
+          "weapon": "Fusil",
+          "display_text": "NoSoyAlox elimino a exotic_cold666 con Fusil (1.9 m)",
+          "time": "13:43"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "QuirozIQ",
+          "weapon": "Escopeta",
+          "display_text": "NoSoyAlox elimino a QuirozIQ con Escopeta (1.9 m)",
+          "time": "04:58"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Velecon",
+          "weapon": "Pistola",
+          "display_text": "NoSoyAlox elimino a Velecon con Pistola (1.9 m)",
+          "time": "01:02"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "QuirozIQ",
+          "weapon": "Fusil",
+          "display_text": "NoSoyAlox elimino a QuirozIQ con Fusil (1.9 m)",
+          "time": "13:27"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Escopeta",
+          "display_text": "NoSoyAlox elimino a NV BruteKitagawa con Escopeta (1.9 m)",
+          "time": "11:53"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "exotic_cold666",
+          "weapon": "Fusil",
+          "display_text": "NoSoyAlox elimino a exotic_cold666 con Fusil (1.9 m)",
+          "time": "10:12"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Angelazaelz1233",
+          "weapon": "Subfusil",
+          "display_text": "NoSoyAlox elimino a Angelazaelz1233 con Subfusil (1.9 m)",
+          "time": "02:26"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Joseph011001",
+          "weapon": "Fusil",
+          "display_text": "NoSoyAlox elimino a Joseph011001 con Fusil (1.9 m)",
+          "time": "07:19"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Kgam123453",
+          "weapon": "Escopeta",
+          "display_text": "NoSoyAlox elimino a Kgam123453 con Escopeta (1.9 m)",
+          "time": "05:34"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Subfusil",
+          "display_text": "NoSoyAlox elimino a Pinkgodzillajr con Subfusil (1.9 m)",
+          "time": "04:31"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Bambam9589",
+          "weapon": "Subfusil",
+          "display_text": "NoSoyAlox elimino a Bambam9589 con Subfusil (1.9 m)",
+          "time": "03:35"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Subfusil",
+          "display_text": "NoSoyAlox elimino a NV BruteKitagawa con Subfusil (1.9 m)",
+          "time": "03:06"
+        }
+      ]
+    },
+    "Pigui9": {
+      "player": {
+        "username": "Pigui9",
+        "display_name": "Pigui9",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 0
+      },
+      "matches": [],
+      "eliminations": []
+    },
+    "Pinkgodzillajr": {
+      "player": {
+        "username": "Pinkgodzillajr",
+        "display_name": "Pinkgodzillajr",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 3,
+        "placement_points": 3,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 27,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        },
+        {
+          "match_number": 2,
+          "position": 19,
+          "kills": 0,
+          "placement_points": 3,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 3
+        },
+        {
+          "match_number": 3,
+          "position": 26,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        }
+      ],
+      "eliminations": []
+    },
+    "QuirozIQ": {
+      "player": {
+        "username": "QuirozIQ",
+        "display_name": "QuirozIQ",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 137,
+        "placement_points": 117,
+        "kill_points": 20,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 1,
+          "kills": 4,
+          "placement_points": 42,
+          "kill_points": 8,
+          "bonus_points": 0,
+          "total_points": 50
+        },
+        {
+          "match_number": 2,
+          "position": 3,
+          "kills": 3,
+          "placement_points": 30,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 36
+        },
+        {
+          "match_number": 3,
+          "position": 16,
+          "kills": 2,
+          "placement_points": 3,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 7
+        },
+        {
+          "match_number": 4,
+          "position": 1,
+          "kills": 1,
+          "placement_points": 42,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 44
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 4,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Pistola",
+          "display_text": "QuirozIQ elimino a NoSoyAlox con Pistola (1.9 m)",
+          "time": "15:31"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Escopeta",
+          "display_text": "QuirozIQ elimino a TTVTURVOPAPA con Escopeta (1.9 m)",
+          "time": "04:25"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Retyet",
+          "weapon": "Subfusil",
+          "display_text": "QuirozIQ elimino a Retyet con Subfusil (1.9 m)",
+          "time": "02:50"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Subfusil",
+          "display_text": "QuirozIQ elimino a TheKingXavi. con Subfusil (1.9 m)",
+          "time": "08:46"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Escopeta",
+          "display_text": "QuirozIQ elimino a Pinkgodzillajr con Escopeta (1.9 m)",
+          "time": "05:21"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Escopeta",
+          "display_text": "QuirozIQ elimino a Sebasfifas6234 con Escopeta (1.9 m)",
+          "time": "01:07"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Escopeta",
+          "display_text": "QuirozIQ elimino a TTVTURVOPAPA con Escopeta (1.9 m)",
+          "time": "13:54"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Escopeta",
+          "display_text": "QuirozIQ elimino a TheKingXavi. con Escopeta (1.9 m)",
+          "time": "07:53"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "exotic_cold666",
+          "weapon": "Subfusil",
+          "display_text": "QuirozIQ elimino a exotic_cold666 con Subfusil (1.9 m)",
+          "time": "06:22"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Nata Tysongg",
+          "weapon": "Escopeta",
+          "display_text": "QuirozIQ elimino a Nata Tysongg con Escopeta (1.9 m)",
+          "time": "05:39"
+        }
+      ]
+    },
+    "Retyet": {
+      "player": {
+        "username": "Retyet",
+        "display_name": "Retyet",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 6,
+        "placement_points": 4,
+        "kill_points": 2,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 32,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        },
+        {
+          "match_number": 2,
+          "position": 24,
+          "kills": 0,
+          "placement_points": 2,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 3,
+          "position": 22,
+          "kills": 1,
+          "placement_points": 2,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 4
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Escopeta",
+          "display_text": "Retyet elimino a emifn30hz80ping con Escopeta (1.9 m)",
+          "time": "02:04"
+        }
+      ]
+    },
+    "Sebasfifas6234": {
+      "player": {
+        "username": "Sebasfifas6234",
+        "display_name": "Sebasfifas6234",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 130,
+        "placement_points": 90,
+        "kill_points": 40,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 4,
+          "kills": 11,
+          "placement_points": 26,
+          "kill_points": 22,
+          "bonus_points": 0,
+          "total_points": 48
+        },
+        {
+          "match_number": 2,
+          "position": 10,
+          "kills": 3,
+          "placement_points": 16,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 22
+        },
+        {
+          "match_number": 3,
+          "position": 3,
+          "kills": 5,
+          "placement_points": 30,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 40
+        },
+        {
+          "match_number": 4,
+          "position": 8,
+          "kills": 1,
+          "placement_points": 18,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 20
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 4,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a TheKingXavi. con Escopeta (1.9 m)",
+          "time": "03:10"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Kgam123453",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a Kgam123453 con Fusil (1.9 m)",
+          "time": "10:45"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Trance3101",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a Trance3101 con Fusil (1.9 m)",
+          "time": "09:46"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Nata Tysongg",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a Nata Tysongg con Fusil (1.9 m)",
+          "time": "06:03"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a TheKingXavi. con Fusil (1.9 m)",
+          "time": "04:14"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Francis_Punch",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a Francis_Punch con Fusil (1.9 m)",
+          "time": "03:31"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "TTVTURVOPAPA",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a TTVTURVOPAPA con Fusil (1.9 m)",
+          "time": "08:38"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "exotic_cold666",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a exotic_cold666 con Fusil (1.9 m)",
+          "time": "05:10"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Trance3101",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a Trance3101 con Escopeta (1.9 m)",
+          "time": "04:16"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "exotic_cold666",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a exotic_cold666 con Escopeta (1.9 m)",
+          "time": "13:45"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a emifn30hz80ping con Escopeta (1.9 m)",
+          "time": "13:31"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "DukiPZK7461",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a DukiPZK7461 con Escopeta (1.9 m)",
+          "time": "12:47"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a TheKingXavi. con Escopeta (1.9 m)",
+          "time": "10:46"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a emifn30hz80ping con Escopeta (1.9 m)",
+          "time": "10:13"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Aarongg9p",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a Aarongg9p con Fusil (1.9 m)",
+          "time": "09:35"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "iker311211",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a iker311211 con Fusil (1.9 m)",
+          "time": "08:46"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Trance3101",
+          "weapon": "Escopeta",
+          "display_text": "Sebasfifas6234 elimino a Trance3101 con Escopeta (1.9 m)",
+          "time": "08:03"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a NOOBMASTER8481 con Fusil (1.9 m)",
+          "time": "07:17"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "QuirozIQ",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a QuirozIQ con Fusil (1.9 m)",
+          "time": "04:00"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Fusil",
+          "display_text": "Sebasfifas6234 elimino a Pinkgodzillajr con Fusil (1.9 m)",
+          "time": "03:06"
+        }
+      ]
+    },
+    "TTVTURVOPAPA": {
+      "player": {
+        "username": "TTVTURVOPAPA",
+        "display_name": "TTVTURVOPAPA",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 91,
+        "placement_points": 67,
+        "kill_points": 24,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 2,
+          "kills": 9,
+          "placement_points": 35,
+          "kill_points": 18,
+          "bonus_points": 0,
+          "total_points": 53
+        },
+        {
+          "match_number": 2,
+          "position": 8,
+          "kills": 2,
+          "placement_points": 18,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 22
+        },
+        {
+          "match_number": 3,
+          "position": 12,
+          "kills": 1,
+          "placement_points": 14,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 16
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a Sebasfifas6234 con Fusil (1.9 m)",
+          "time": "04:42"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "JINAX2310",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a JINAX2310 con Fusil (1.9 m)",
+          "time": "06:25"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "exotic_cold666",
+          "weapon": "Escopeta",
+          "display_text": "TTVTURVOPAPA elimino a exotic_cold666 con Escopeta (1.9 m)",
+          "time": "03:46"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Nata Tysongg",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a Nata Tysongg con Fusil (1.9 m)",
+          "time": "13:35"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Trance3101",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a Trance3101 con Fusil (1.9 m)",
+          "time": "13:16"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a Sebasfifas6234 con Fusil (1.9 m)",
+          "time": "12:01"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Aarongg9p",
+          "weapon": "Escopeta",
+          "display_text": "TTVTURVOPAPA elimino a Aarongg9p con Escopeta (1.9 m)",
+          "time": "10:43"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "iker311211",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a iker311211 con Fusil (1.9 m)",
+          "time": "10:12"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "iker311211",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a iker311211 con Fusil (1.9 m)",
+          "time": "09:11"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Velecon",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a Velecon con Fusil (1.9 m)",
+          "time": "06:16"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Bambam9589",
+          "weapon": "Escopeta",
+          "display_text": "TTVTURVOPAPA elimino a Bambam9589 con Escopeta (1.9 m)",
+          "time": "04:51"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Fusil",
+          "display_text": "TTVTURVOPAPA elimino a Thedarkfunny01 con Fusil (1.9 m)",
+          "time": "02:43"
+        }
+      ]
+    },
+    "TheKingXavi.": {
+      "player": {
+        "username": "TheKingXavi.",
+        "display_name": "TheKingXavi.",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 89,
+        "placement_points": 67,
+        "kill_points": 22,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 10,
+          "kills": 3,
+          "placement_points": 16,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 22
+        },
+        {
+          "match_number": 2,
+          "position": 6,
+          "kills": 3,
+          "placement_points": 21,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 27
+        },
+        {
+          "match_number": 3,
+          "position": 8,
+          "kills": 5,
+          "placement_points": 18,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 28
+        },
+        {
+          "match_number": 4,
+          "position": 14,
+          "kills": 0,
+          "placement_points": 12,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 12
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Francis_Punch",
+          "weapon": "Subfusil",
+          "display_text": "TheKingXavi. elimino a Francis_Punch con Subfusil (1.9 m)",
+          "time": "10:00"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Max_Rosado",
+          "weapon": "Fusil",
+          "display_text": "TheKingXavi. elimino a Max_Rosado con Fusil (1.9 m)",
+          "time": "07:33"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Max_Rosado",
+          "weapon": "Escopeta",
+          "display_text": "TheKingXavi. elimino a Max_Rosado con Escopeta (1.9 m)",
+          "time": "07:10"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "QuirozIQ",
+          "weapon": "Fusil",
+          "display_text": "TheKingXavi. elimino a QuirozIQ con Fusil (1.9 m)",
+          "time": "06:07"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Pistola",
+          "display_text": "TheKingXavi. elimino a Pinkgodzillajr con Pistola (1.9 m)",
+          "time": "01:34"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Kgam123453",
+          "weapon": "Tormenta / Caida",
+          "display_text": "TheKingXavi. elimino a Kgam123453 con Tormenta / Caida (1.9 m)",
+          "time": "11:24"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Trance3101",
+          "weapon": "Fusil",
+          "display_text": "TheKingXavi. elimino a Trance3101 con Fusil (1.9 m)",
+          "time": "04:52"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "CHIBOL0",
+          "weapon": "Fusil",
+          "display_text": "TheKingXavi. elimino a CHIBOL0 con Fusil (1.9 m)",
+          "time": "01:57"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Francis_Punch",
+          "weapon": "Subfusil",
+          "display_text": "TheKingXavi. elimino a Francis_Punch con Subfusil (1.9 m)",
+          "time": "10:13"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "humilde__17",
+          "weapon": "Fusil",
+          "display_text": "TheKingXavi. elimino a humilde__17 con Fusil (1.9 m)",
+          "time": "06:50"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Angelazaelz1233",
+          "weapon": "Subfusil",
+          "display_text": "TheKingXavi. elimino a Angelazaelz1233 con Subfusil (1.9 m)",
+          "time": "05:53"
+        }
+      ]
+    },
+    "Thedarkfunny01": {
+      "player": {
+        "username": "Thedarkfunny01",
+        "display_name": "Thedarkfunny01",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 7,
+        "placement_points": 7,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 25,
+          "kills": 0,
+          "placement_points": 2,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 2,
+          "position": 21,
+          "kills": 0,
+          "placement_points": 2,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 3,
+          "position": 20,
+          "kills": 0,
+          "placement_points": 3,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 3
+        }
+      ],
+      "eliminations": []
+    },
+    "TonyreyesRL": {
+      "player": {
+        "username": "TonyreyesRL",
+        "display_name": "TonyreyesRL",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 0
+      },
+      "matches": [],
+      "eliminations": []
+    },
+    "Trance3101": {
+      "player": {
+        "username": "Trance3101",
+        "display_name": "Trance3101",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 43,
+        "placement_points": 39,
+        "kill_points": 4,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 7,
+          "kills": 2,
+          "placement_points": 19,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 23
+        },
+        {
+          "match_number": 2,
+          "position": 17,
+          "kills": 0,
+          "placement_points": 3,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 3
+        },
+        {
+          "match_number": 3,
+          "position": 9,
+          "kills": 0,
+          "placement_points": 17,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 17
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 1,
+          "eliminated": "shirday24",
+          "weapon": "Fusil",
+          "display_text": "Trance3101 elimino a shirday24 con Fusil (1.9 m)",
+          "time": "07:57"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Angelazaelz1233",
+          "weapon": "Fusil",
+          "display_text": "Trance3101 elimino a Angelazaelz1233 con Fusil (1.9 m)",
+          "time": "06:11"
+        }
+      ]
+    },
+    "Twitch-Tibo_1018": {
+      "player": {
+        "username": "Twitch-Tibo_1018",
+        "display_name": "Twitch-Tibo_1018",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 0
+      },
+      "matches": [],
+      "eliminations": []
+    },
+    "Velecon": {
+      "player": {
+        "username": "Velecon",
+        "display_name": "Velecon",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 26,
+        "placement_points": 26,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 22,
+          "kills": 0,
+          "placement_points": 2,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 2,
+          "position": 20,
+          "kills": 0,
+          "placement_points": 3,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 3
+        },
+        {
+          "match_number": 3,
+          "position": 21,
+          "kills": 0,
+          "placement_points": 2,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 4,
+          "position": 7,
+          "kills": 0,
+          "placement_points": 19,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 19
+        }
+      ],
+      "eliminations": []
+    },
+    "Yoshiro163830": {
+      "player": {
+        "username": "Yoshiro163830",
+        "display_name": "Yoshiro163830",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 31,
+        "placement_points": 19,
+        "kill_points": 12,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 20,
+          "kills": 3,
+          "placement_points": 3,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 9
+        },
+        {
+          "match_number": 2,
+          "position": 13,
+          "kills": 1,
+          "placement_points": 13,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 15
+        },
+        {
+          "match_number": 3,
+          "position": 17,
+          "kills": 2,
+          "placement_points": 3,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 7
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "JINAX2310",
+          "weapon": "Pistola",
+          "display_text": "Yoshiro163830 elimino a JINAX2310 con Pistola (1.9 m)",
+          "time": "02:31"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Subfusil",
+          "display_text": "Yoshiro163830 elimino a Pinkgodzillajr con Subfusil (1.9 m)",
+          "time": "02:12"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Max_Rosado",
+          "weapon": "Fusil",
+          "display_text": "Yoshiro163830 elimino a Max_Rosado con Fusil (1.9 m)",
+          "time": "05:57"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "JINAX2310",
+          "weapon": "Subfusil",
+          "display_text": "Yoshiro163830 elimino a JINAX2310 con Subfusil (1.9 m)",
+          "time": "06:06"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "humilde__17",
+          "weapon": "Subfusil",
+          "display_text": "Yoshiro163830 elimino a humilde__17 con Subfusil (1.9 m)",
+          "time": "01:55"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Pistola",
+          "display_text": "Yoshiro163830 elimino a Thedarkfunny01 con Pistola (1.9 m)",
+          "time": "01:18"
+        }
+      ]
+    },
+    "brayan-oros07": {
+      "player": {
+        "username": "brayan-oros07",
+        "display_name": "brayan-oros07",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 1
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 26,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        }
+      ],
+      "eliminations": []
+    },
+    "emifn30hz80ping": {
+      "player": {
+        "username": "emifn30hz80ping",
+        "display_name": "emifn30hz80ping",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 49,
+        "placement_points": 37,
+        "kill_points": 12,
+        "bonus_points": 0,
+        "matches_played": 3
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 6,
+          "kills": 0,
+          "placement_points": 21,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 21
+        },
+        {
+          "match_number": 2,
+          "position": 18,
+          "kills": 4,
+          "placement_points": 3,
+          "kill_points": 8,
+          "bonus_points": 0,
+          "total_points": 11
+        },
+        {
+          "match_number": 3,
+          "position": 13,
+          "kills": 2,
+          "placement_points": 13,
+          "kill_points": 4,
+          "bonus_points": 0,
+          "total_points": 17
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "yocapi_pr",
+          "weapon": "Fusil",
+          "display_text": "emifn30hz80ping elimino a yocapi_pr con Fusil (1.9 m)",
+          "time": "02:47"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "yocapi_pr",
+          "weapon": "Fusil",
+          "display_text": "emifn30hz80ping elimino a yocapi_pr con Fusil (1.9 m)",
+          "time": "01:22"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Max_Rosado",
+          "weapon": "Subfusil",
+          "display_text": "emifn30hz80ping elimino a Max_Rosado con Subfusil (1.9 m)",
+          "time": "05:23"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Retyet",
+          "weapon": "Fusil",
+          "display_text": "emifn30hz80ping elimino a Retyet con Fusil (1.9 m)",
+          "time": "03:27"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "DeathFox1213",
+          "weapon": "Escopeta",
+          "display_text": "emifn30hz80ping elimino a DeathFox1213 con Escopeta (1.9 m)",
+          "time": "03:06"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "yocapi_pr",
+          "weapon": "Pistola",
+          "display_text": "emifn30hz80ping elimino a yocapi_pr con Pistola (1.9 m)",
+          "time": "01:16"
+        }
+      ]
+    },
+    "exotic_cold666": {
+      "player": {
+        "username": "exotic_cold666",
+        "display_name": "exotic_cold666",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 134,
+        "placement_points": 100,
+        "kill_points": 34,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 3,
+          "kills": 6,
+          "placement_points": 30,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 42
+        },
+        {
+          "match_number": 2,
+          "position": 7,
+          "kills": 5,
+          "placement_points": 19,
+          "kill_points": 10,
+          "bonus_points": 0,
+          "total_points": 29
+        },
+        {
+          "match_number": 3,
+          "position": 2,
+          "kills": 6,
+          "placement_points": 35,
+          "kill_points": 12,
+          "bonus_points": 0,
+          "total_points": 47
+        },
+        {
+          "match_number": 4,
+          "position": 10,
+          "kills": 0,
+          "placement_points": 16,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 16
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 3,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Escopeta",
+          "display_text": "exotic_cold666 elimino a Sebasfifas6234 con Escopeta (1.9 m)",
+          "time": "13:36"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "NV BruteKitagawa",
+          "weapon": "Escopeta",
+          "display_text": "exotic_cold666 elimino a NV BruteKitagawa con Escopeta (1.9 m)",
+          "time": "09:05"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "NOOBMASTER8481",
+          "weapon": "Fusil",
+          "display_text": "exotic_cold666 elimino a NOOBMASTER8481 con Fusil (1.9 m)",
+          "time": "06:26"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Velecon",
+          "weapon": "Subfusil",
+          "display_text": "exotic_cold666 elimino a Velecon con Subfusil (1.9 m)",
+          "time": "04:47"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "yocapi_pr",
+          "weapon": "Subfusil",
+          "display_text": "exotic_cold666 elimino a yocapi_pr con Subfusil (1.9 m)",
+          "time": "04:03"
+        },
+        {
+          "match_number": 3,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Subfusil",
+          "display_text": "exotic_cold666 elimino a Thedarkfunny01 con Subfusil (1.9 m)",
+          "time": "01:23"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Francis_Punch",
+          "weapon": "Fusil",
+          "display_text": "exotic_cold666 elimino a Francis_Punch con Fusil (1.9 m)",
+          "time": "09:33"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Escopeta",
+          "display_text": "exotic_cold666 elimino a Sebasfifas6234 con Escopeta (1.9 m)",
+          "time": "08:50"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "DukiPZK7461",
+          "weapon": "Subfusil",
+          "display_text": "exotic_cold666 elimino a DukiPZK7461 con Subfusil (1.9 m)",
+          "time": "06:50"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "JINAX2310",
+          "weapon": "Subfusil",
+          "display_text": "exotic_cold666 elimino a JINAX2310 con Subfusil (1.9 m)",
+          "time": "04:56"
+        },
+        {
+          "match_number": 2,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Escopeta",
+          "display_text": "exotic_cold666 elimino a emifn30hz80ping con Escopeta (1.9 m)",
+          "time": "01:47"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Sebasfifas6234",
+          "weapon": "Escopeta",
+          "display_text": "exotic_cold666 elimino a Sebasfifas6234 con Escopeta (1.9 m)",
+          "time": "13:44"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Aarongg9p",
+          "weapon": "Subfusil",
+          "display_text": "exotic_cold666 elimino a Aarongg9p con Subfusil (1.9 m)",
+          "time": "11:04"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "TheKingXavi.",
+          "weapon": "Fusil",
+          "display_text": "exotic_cold666 elimino a TheKingXavi. con Fusil (1.9 m)",
+          "time": "10:18"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Escopeta",
+          "display_text": "exotic_cold666 elimino a NoSoyAlox con Escopeta (1.9 m)",
+          "time": "06:58"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "shirday24",
+          "weapon": "Subfusil",
+          "display_text": "exotic_cold666 elimino a shirday24 con Subfusil (1.9 m)",
+          "time": "04:13"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Bambam9589",
+          "weapon": "Escopeta",
+          "display_text": "exotic_cold666 elimino a Bambam9589 con Escopeta (1.9 m)",
+          "time": "03:00"
+        }
+      ]
+    },
+    "gabriYsus22": {
+      "player": {
+        "username": "gabriYsus22",
+        "display_name": "gabriYsus22",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 0
+      },
+      "matches": [],
+      "eliminations": []
+    },
+    "humilde__17": {
+      "player": {
+        "username": "humilde__17",
+        "display_name": "humilde__17",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 9,
+        "placement_points": 3,
+        "kill_points": 6,
+        "bonus_points": 0,
+        "matches_played": 1
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 19,
+          "kills": 3,
+          "placement_points": 3,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 9
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 1,
+          "eliminated": "Thedarkfunny01",
+          "weapon": "Fusil",
+          "display_text": "humilde__17 elimino a Thedarkfunny01 con Fusil (1.9 m)",
+          "time": "05:22"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Francis_Punch",
+          "weapon": "Fusil",
+          "display_text": "humilde__17 elimino a Francis_Punch con Fusil (1.9 m)",
+          "time": "03:20"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Francis_Punch",
+          "weapon": "Pistola",
+          "display_text": "humilde__17 elimino a Francis_Punch con Pistola (1.9 m)",
+          "time": "01:25"
+        }
+      ]
+    },
+    "iker311211": {
+      "player": {
+        "username": "iker311211",
+        "display_name": "iker311211",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 22,
+        "placement_points": 14,
+        "kill_points": 8,
+        "bonus_points": 0,
+        "matches_played": 1
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 12,
+          "kills": 4,
+          "placement_points": 14,
+          "kill_points": 8,
+          "bonus_points": 0,
+          "total_points": 22
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 1,
+          "eliminated": "emifn30hz80ping",
+          "weapon": "Fusil",
+          "display_text": "iker311211 elimino a emifn30hz80ping con Fusil (1.9 m)",
+          "time": "09:48"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "NoSoyAlox",
+          "weapon": "Fusil",
+          "display_text": "iker311211 elimino a NoSoyAlox con Fusil (1.9 m)",
+          "time": "07:49"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Kgam123453",
+          "weapon": "Fusil",
+          "display_text": "iker311211 elimino a Kgam123453 con Fusil (1.9 m)",
+          "time": "06:10"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "yocapi_pr",
+          "weapon": "Fusil",
+          "display_text": "iker311211 elimino a yocapi_pr con Fusil (1.9 m)",
+          "time": "03:34"
+        }
+      ]
+    },
+    "shirday24": {
+      "player": {
+        "username": "shirday24",
+        "display_name": "shirday24",
+        "is_pro": false,
+        "skin_name": null
+      },
+      "summary": {
+        "total_points": 38,
+        "placement_points": 30,
+        "kill_points": 8,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 15,
+          "kills": 3,
+          "placement_points": 11,
+          "kill_points": 6,
+          "bonus_points": 0,
+          "total_points": 17
+        },
+        {
+          "match_number": 2,
+          "position": 22,
+          "kills": 1,
+          "placement_points": 2,
+          "kill_points": 2,
+          "bonus_points": 0,
+          "total_points": 4
+        },
+        {
+          "match_number": 3,
+          "position": 18,
+          "kills": 0,
+          "placement_points": 3,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 3
+        },
+        {
+          "match_number": 4,
+          "position": 12,
+          "kills": 0,
+          "placement_points": 14,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 14
+        }
+      ],
+      "eliminations": [
+        {
+          "match_number": 2,
+          "eliminated": "Pinkgodzillajr",
+          "weapon": "Fusil",
+          "display_text": "shirday24 elimino a Pinkgodzillajr con Fusil (1.9 m)",
+          "time": "01:46"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Joseph011001",
+          "weapon": "Subfusil",
+          "display_text": "shirday24 elimino a Joseph011001 con Subfusil (1.9 m)",
+          "time": "06:57"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "JINAX2310",
+          "weapon": "Escopeta",
+          "display_text": "shirday24 elimino a JINAX2310 con Escopeta (1.9 m)",
+          "time": "04:11"
+        },
+        {
+          "match_number": 1,
+          "eliminated": "Retyet",
+          "weapon": "Subfusil",
+          "display_text": "shirday24 elimino a Retyet con Subfusil (1.9 m)",
+          "time": "01:39"
+        }
+      ]
+    },
+    "yocapi_pr": {
+      "player": {
+        "username": "yocapi_pr",
+        "display_name": "yocapi_pr",
+        "is_pro": false,
+        "skin_name": "supergirl"
+      },
+      "summary": {
+        "total_points": 15,
+        "placement_points": 15,
+        "kill_points": 0,
+        "bonus_points": 0,
+        "matches_played": 4
+      },
+      "matches": [
+        {
+          "match_number": 1,
+          "position": 31,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        },
+        {
+          "match_number": 2,
+          "position": 27,
+          "kills": 0,
+          "placement_points": 0,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 0
+        },
+        {
+          "match_number": 3,
+          "position": 24,
+          "kills": 0,
+          "placement_points": 2,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 2
+        },
+        {
+          "match_number": 4,
+          "position": 13,
+          "kills": 0,
+          "placement_points": 13,
+          "kill_points": 0,
+          "bonus_points": 0,
+          "total_points": 13
+        }
+      ],
+      "eliminations": []
+    }
+  },
+  "match_results": {
+    "1": [
+      {
+        "id": 18,
+        "username": "TTVTURVOPAPA",
+        "display_name": "TTVTURVOPAPA",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 2,
+        "kills": 9,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 35,
+        "kill_points": 18,
+        "total_points": 53
+      },
+      {
+        "id": 17,
+        "username": "QuirozIQ",
+        "display_name": "QuirozIQ",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 1,
+        "kills": 4,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 42,
+        "kill_points": 8,
+        "total_points": 50
+      },
+      {
+        "id": 20,
+        "username": "Sebasfifas6234",
+        "display_name": "Sebasfifas6234",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 4,
+        "kills": 11,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 26,
+        "kill_points": 22,
+        "total_points": 48
+      },
+      {
+        "id": 19,
+        "username": "exotic_cold666",
+        "display_name": "exotic_cold666",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 3,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 30,
+        "kill_points": 12,
+        "total_points": 42
+      },
+      {
+        "id": 24,
+        "username": "DukiPZK7461",
+        "display_name": "DukiPZK7461",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 8,
+        "kills": 11,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 18,
+        "kill_points": 22,
+        "total_points": 40
+      },
+      {
+        "id": 23,
+        "username": "Trance3101",
+        "display_name": "Trance3101",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 7,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 19,
+        "kill_points": 4,
+        "total_points": 23
+      },
+      {
+        "id": 21,
+        "username": "Nata Tysongg",
+        "display_name": "Nata Tysongg",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 5,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 23,
+        "kill_points": 0,
+        "total_points": 23
+      },
+      {
+        "id": 30,
+        "username": "NoSoyAlox",
+        "display_name": "NoSoyAlox",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 14,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 12,
+        "kill_points": 10,
+        "total_points": 22
+      },
+      {
+        "id": 28,
+        "username": "iker311211",
+        "display_name": "iker311211",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 12,
+        "kills": 4,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 14,
+        "kill_points": 8,
+        "total_points": 22
+      },
+      {
+        "id": 26,
+        "username": "TheKingXavi.",
+        "display_name": "TheKingXavi.",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 10,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 16,
+        "kill_points": 6,
+        "total_points": 22
+      },
+      {
+        "id": 29,
+        "username": "Max_Rosado",
+        "display_name": "Max_Rosado",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 13,
+        "kills": 4,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 13,
+        "kill_points": 8,
+        "total_points": 21
+      },
+      {
+        "id": 22,
+        "username": "emifn30hz80ping",
+        "display_name": "emifn30hz80ping",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 6,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 21,
+        "kill_points": 0,
+        "total_points": 21
+      },
+      {
+        "id": 27,
+        "username": "Francis_Punch",
+        "display_name": "Francis_Punch",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 11,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 15,
+        "kill_points": 4,
+        "total_points": 19
+      },
+      {
+        "id": 32,
+        "username": "NOOBMASTER8481",
+        "display_name": "NOOBMASTER8481",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 16,
+        "kills": 7,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 14,
+        "total_points": 17
+      },
+      {
+        "id": 31,
+        "username": "shirday24",
+        "display_name": "shirday24",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 15,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 11,
+        "kill_points": 6,
+        "total_points": 17
+      },
+      {
+        "id": 25,
+        "username": "Aarongg9p",
+        "display_name": "Aarongg9p",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 9,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 17,
+        "kill_points": 0,
+        "total_points": 17
+      },
+      {
+        "id": 35,
+        "username": "humilde__17",
+        "display_name": "humilde__17",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 19,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 6,
+        "total_points": 9
+      },
+      {
+        "id": 36,
+        "username": "Yoshiro163830",
+        "display_name": "Yoshiro163830",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 20,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 6,
+        "total_points": 9
+      },
+      {
+        "id": 37,
+        "username": "NV BruteKitagawa",
+        "display_name": "NV BruteKitagawa",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 21,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 6,
+        "total_points": 8
+      },
+      {
+        "id": 39,
+        "username": "Kgam123453",
+        "display_name": "Kgam123453",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 23,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 6,
+        "total_points": 8
+      },
+      {
+        "id": 33,
+        "username": "Angelazaelz1233",
+        "display_name": "Angelazaelz1233",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 17,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 4,
+        "total_points": 7
+      },
+      {
+        "id": 34,
+        "username": "Joseph011001",
+        "display_name": "Joseph011001",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 18,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 4,
+        "total_points": 7
+      },
+      {
+        "id": 40,
+        "username": "JINAX2310",
+        "display_name": "JINAX2310",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 24,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 2,
+        "total_points": 4
+      },
+      {
+        "id": 44,
+        "username": "CHIBOL0",
+        "display_name": "CHIBOL0",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 28,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 2,
+        "total_points": 2
+      },
+      {
+        "id": 45,
+        "username": "Bambam9589",
+        "display_name": "Bambam9589",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 29,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 2,
+        "total_points": 2
+      },
+      {
+        "id": 38,
+        "username": "Velecon",
+        "display_name": "Velecon",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 22,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 0,
+        "total_points": 2
+      },
+      {
+        "id": 41,
+        "username": "Thedarkfunny01",
+        "display_name": "Thedarkfunny01",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 25,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 0,
+        "total_points": 2
+      },
+      {
+        "id": 42,
+        "username": "brayan-oros07",
+        "display_name": "brayan-oros07",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 26,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      },
+      {
+        "id": 43,
+        "username": "Pinkgodzillajr",
+        "display_name": "Pinkgodzillajr",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 27,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      },
+      {
+        "id": 46,
+        "username": "DeathFox1213",
+        "display_name": "DeathFox1213",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 30,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      },
+      {
+        "id": 47,
+        "username": "yocapi_pr",
+        "display_name": "yocapi_pr",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 31,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      },
+      {
+        "id": 48,
+        "username": "Retyet",
+        "display_name": "Retyet",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 32,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      }
+    ],
+    "2": [
+      {
+        "id": 37,
+        "username": "NV BruteKitagawa",
+        "display_name": "NV BruteKitagawa",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 4,
+        "kills": 16,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 26,
+        "kill_points": 32,
+        "total_points": 58
+      },
+      {
+        "id": 27,
+        "username": "Francis_Punch",
+        "display_name": "Francis_Punch",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 1,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 42,
+        "kill_points": 12,
+        "total_points": 54
+      },
+      {
+        "id": 30,
+        "username": "NoSoyAlox",
+        "display_name": "NoSoyAlox",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 2,
+        "kills": 4,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 35,
+        "kill_points": 8,
+        "total_points": 43
+      },
+      {
+        "id": 17,
+        "username": "QuirozIQ",
+        "display_name": "QuirozIQ",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 3,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 30,
+        "kill_points": 6,
+        "total_points": 36
+      },
+      {
+        "id": 39,
+        "username": "Kgam123453",
+        "display_name": "Kgam123453",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 5,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 23,
+        "kill_points": 10,
+        "total_points": 33
+      },
+      {
+        "id": 19,
+        "username": "exotic_cold666",
+        "display_name": "exotic_cold666",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 7,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 19,
+        "kill_points": 10,
+        "total_points": 29
+      },
+      {
+        "id": 45,
+        "username": "Bambam9589",
+        "display_name": "Bambam9589",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 9,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 17,
+        "kill_points": 10,
+        "total_points": 27
+      },
+      {
+        "id": 26,
+        "username": "TheKingXavi.",
+        "display_name": "TheKingXavi.",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 6,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 21,
+        "kill_points": 6,
+        "total_points": 27
+      },
+      {
+        "id": 40,
+        "username": "JINAX2310",
+        "display_name": "JINAX2310",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 14,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 12,
+        "kill_points": 12,
+        "total_points": 24
+      },
+      {
+        "id": 24,
+        "username": "DukiPZK7461",
+        "display_name": "DukiPZK7461",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 12,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 14,
+        "kill_points": 10,
+        "total_points": 24
+      },
+      {
+        "id": 20,
+        "username": "Sebasfifas6234",
+        "display_name": "Sebasfifas6234",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 10,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 16,
+        "kill_points": 6,
+        "total_points": 22
+      },
+      {
+        "id": 18,
+        "username": "TTVTURVOPAPA",
+        "display_name": "TTVTURVOPAPA",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 8,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 18,
+        "kill_points": 4,
+        "total_points": 22
+      },
+      {
+        "id": 29,
+        "username": "Max_Rosado",
+        "display_name": "Max_Rosado",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 15,
+        "kills": 4,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 11,
+        "kill_points": 8,
+        "total_points": 19
+      },
+      {
+        "id": 32,
+        "username": "NOOBMASTER8481",
+        "display_name": "NOOBMASTER8481",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 11,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 15,
+        "kill_points": 4,
+        "total_points": 19
+      },
+      {
+        "id": 36,
+        "username": "Yoshiro163830",
+        "display_name": "Yoshiro163830",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 13,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 13,
+        "kill_points": 2,
+        "total_points": 15
+      },
+      {
+        "id": 22,
+        "username": "emifn30hz80ping",
+        "display_name": "emifn30hz80ping",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 18,
+        "kills": 4,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 8,
+        "total_points": 11
+      },
+      {
+        "id": 33,
+        "username": "Angelazaelz1233",
+        "display_name": "Angelazaelz1233",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 23,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 4,
+        "total_points": 6
+      },
+      {
+        "id": 34,
+        "username": "Joseph011001",
+        "display_name": "Joseph011001",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 16,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 2,
+        "total_points": 5
+      },
+      {
+        "id": 31,
+        "username": "shirday24",
+        "display_name": "shirday24",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 22,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 2,
+        "total_points": 4
+      },
+      {
+        "id": 23,
+        "username": "Trance3101",
+        "display_name": "Trance3101",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 17,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 0,
+        "total_points": 3
+      },
+      {
+        "id": 38,
+        "username": "Velecon",
+        "display_name": "Velecon",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 20,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 0,
+        "total_points": 3
+      },
+      {
+        "id": 43,
+        "username": "Pinkgodzillajr",
+        "display_name": "Pinkgodzillajr",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 19,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 0,
+        "total_points": 3
+      },
+      {
+        "id": 41,
+        "username": "Thedarkfunny01",
+        "display_name": "Thedarkfunny01",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 21,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 0,
+        "total_points": 2
+      },
+      {
+        "id": 44,
+        "username": "CHIBOL0",
+        "display_name": "CHIBOL0",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 25,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 0,
+        "total_points": 2
+      },
+      {
+        "id": 48,
+        "username": "Retyet",
+        "display_name": "Retyet",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 24,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 0,
+        "total_points": 2
+      },
+      {
+        "id": 46,
+        "username": "DeathFox1213",
+        "display_name": "DeathFox1213",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 26,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      },
+      {
+        "id": 47,
+        "username": "yocapi_pr",
+        "display_name": "yocapi_pr",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 27,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      }
+    ],
+    "3": [
+      {
+        "id": 37,
+        "username": "NV BruteKitagawa",
+        "display_name": "NV BruteKitagawa",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 4,
+        "kills": 15,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 26,
+        "kill_points": 30,
+        "total_points": 56
+      },
+      {
+        "id": 30,
+        "username": "NoSoyAlox",
+        "display_name": "NoSoyAlox",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 1,
+        "kills": 3,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 42,
+        "kill_points": 6,
+        "total_points": 48
+      },
+      {
+        "id": 19,
+        "username": "exotic_cold666",
+        "display_name": "exotic_cold666",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 2,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 35,
+        "kill_points": 12,
+        "total_points": 47
+      },
+      {
+        "id": 20,
+        "username": "Sebasfifas6234",
+        "display_name": "Sebasfifas6234",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 3,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 30,
+        "kill_points": 10,
+        "total_points": 40
+      },
+      {
+        "id": 24,
+        "username": "DukiPZK7461",
+        "display_name": "DukiPZK7461",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 5,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 23,
+        "kill_points": 12,
+        "total_points": 35
+      },
+      {
+        "id": 27,
+        "username": "Francis_Punch",
+        "display_name": "Francis_Punch",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 6,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 21,
+        "kill_points": 12,
+        "total_points": 33
+      },
+      {
+        "id": 39,
+        "username": "Kgam123453",
+        "display_name": "Kgam123453",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 7,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 19,
+        "kill_points": 12,
+        "total_points": 31
+      },
+      {
+        "id": 26,
+        "username": "TheKingXavi.",
+        "display_name": "TheKingXavi.",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 8,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 18,
+        "kill_points": 10,
+        "total_points": 28
+      },
+      {
+        "id": 29,
+        "username": "Max_Rosado",
+        "display_name": "Max_Rosado",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 14,
+        "kills": 5,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 12,
+        "kill_points": 10,
+        "total_points": 22
+      },
+      {
+        "id": 34,
+        "username": "Joseph011001",
+        "display_name": "Joseph011001",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 10,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 16,
+        "kill_points": 4,
+        "total_points": 20
+      },
+      {
+        "id": 22,
+        "username": "emifn30hz80ping",
+        "display_name": "emifn30hz80ping",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 13,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 13,
+        "kill_points": 4,
+        "total_points": 17
+      },
+      {
+        "id": 21,
+        "username": "Nata Tysongg",
+        "display_name": "Nata Tysongg",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 11,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 15,
+        "kill_points": 2,
+        "total_points": 17
+      },
+      {
+        "id": 23,
+        "username": "Trance3101",
+        "display_name": "Trance3101",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 9,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 17,
+        "kill_points": 0,
+        "total_points": 17
+      },
+      {
+        "id": 18,
+        "username": "TTVTURVOPAPA",
+        "display_name": "TTVTURVOPAPA",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 12,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 14,
+        "kill_points": 2,
+        "total_points": 16
+      },
+      {
+        "id": 32,
+        "username": "NOOBMASTER8481",
+        "display_name": "NOOBMASTER8481",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 15,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 11,
+        "kill_points": 4,
+        "total_points": 15
+      },
+      {
+        "id": 17,
+        "username": "QuirozIQ",
+        "display_name": "QuirozIQ",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 16,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 4,
+        "total_points": 7
+      },
+      {
+        "id": 36,
+        "username": "Yoshiro163830",
+        "display_name": "Yoshiro163830",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 17,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 4,
+        "total_points": 7
+      },
+      {
+        "id": 40,
+        "username": "JINAX2310",
+        "display_name": "JINAX2310",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 19,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 2,
+        "total_points": 5
+      },
+      {
+        "id": 44,
+        "username": "CHIBOL0",
+        "display_name": "CHIBOL0",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 23,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 2,
+        "total_points": 4
+      },
+      {
+        "id": 46,
+        "username": "DeathFox1213",
+        "display_name": "DeathFox1213",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 25,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 2,
+        "total_points": 4
+      },
+      {
+        "id": 48,
+        "username": "Retyet",
+        "display_name": "Retyet",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 22,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 2,
+        "total_points": 4
+      },
+      {
+        "id": 31,
+        "username": "shirday24",
+        "display_name": "shirday24",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 18,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 0,
+        "total_points": 3
+      },
+      {
+        "id": 41,
+        "username": "Thedarkfunny01",
+        "display_name": "Thedarkfunny01",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 20,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 3,
+        "kill_points": 0,
+        "total_points": 3
+      },
+      {
+        "id": 38,
+        "username": "Velecon",
+        "display_name": "Velecon",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 21,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 0,
+        "total_points": 2
+      },
+      {
+        "id": 47,
+        "username": "yocapi_pr",
+        "display_name": "yocapi_pr",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 24,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 2,
+        "kill_points": 0,
+        "total_points": 2
+      },
+      {
+        "id": 43,
+        "username": "Pinkgodzillajr",
+        "display_name": "Pinkgodzillajr",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 26,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 0,
+        "kill_points": 0,
+        "total_points": 0
+      }
+    ],
+    "4": [
+      {
+        "id": 37,
+        "username": "NV BruteKitagawa",
+        "display_name": "NV BruteKitagawa",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 2,
+        "kills": 6,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 35,
+        "kill_points": 12,
+        "total_points": 47
+      },
+      {
+        "id": 27,
+        "username": "Francis_Punch",
+        "display_name": "Francis_Punch",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 1,
+        "kills": 2,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 42,
+        "kill_points": 4,
+        "total_points": 46
+      },
+      {
+        "id": 17,
+        "username": "QuirozIQ",
+        "display_name": "QuirozIQ",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 1,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 42,
+        "kill_points": 2,
+        "total_points": 44
+      },
+      {
+        "id": 30,
+        "username": "NoSoyAlox",
+        "display_name": "NoSoyAlox",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 4,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 26,
+        "kill_points": 2,
+        "total_points": 28
+      },
+      {
+        "id": 39,
+        "username": "Kgam123453",
+        "display_name": "Kgam123453",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 5,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 23,
+        "kill_points": 0,
+        "total_points": 23
+      },
+      {
+        "id": 32,
+        "username": "NOOBMASTER8481",
+        "display_name": "NOOBMASTER8481",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 6,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 21,
+        "kill_points": 0,
+        "total_points": 21
+      },
+      {
+        "id": 20,
+        "username": "Sebasfifas6234",
+        "display_name": "Sebasfifas6234",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 8,
+        "kills": 1,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 18,
+        "kill_points": 2,
+        "total_points": 20
+      },
+      {
+        "id": 38,
+        "username": "Velecon",
+        "display_name": "Velecon",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 7,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 19,
+        "kill_points": 0,
+        "total_points": 19
+      },
+      {
+        "id": 24,
+        "username": "DukiPZK7461",
+        "display_name": "DukiPZK7461",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 9,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 17,
+        "kill_points": 0,
+        "total_points": 17
+      },
+      {
+        "id": 19,
+        "username": "exotic_cold666",
+        "display_name": "exotic_cold666",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 10,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 16,
+        "kill_points": 0,
+        "total_points": 16
+      },
+      {
+        "id": 29,
+        "username": "Max_Rosado",
+        "display_name": "Max_Rosado",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 11,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 15,
+        "kill_points": 0,
+        "total_points": 15
+      },
+      {
+        "id": 31,
+        "username": "shirday24",
+        "display_name": "shirday24",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 12,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 14,
+        "kill_points": 0,
+        "total_points": 14
+      },
+      {
+        "id": 47,
+        "username": "yocapi_pr",
+        "display_name": "yocapi_pr",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 13,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 13,
+        "kill_points": 0,
+        "total_points": 13
+      },
+      {
+        "id": 26,
+        "username": "TheKingXavi.",
+        "display_name": "TheKingXavi.",
+        "is_pro": 0,
+        "is_disqualified": 0,
+        "position": 14,
+        "kills": 0,
+        "kill_adjustment": 0,
+        "bonus_points": 0,
+        "placement_points": 12,
+        "kill_points": 0,
+        "total_points": 12
+      }
+    ]
+  }
+}
