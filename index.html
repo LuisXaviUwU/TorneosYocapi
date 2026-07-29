@@ -3396,7 +3396,15 @@
         const name = hideNames ? "Jugador Misterioso" : rawName;
         const initial = name.charAt(0).toUpperCase();
         const color = getAvatarColor(name);
-        const badgeHTML = hideNames ? '' : (p.is_pro ? '<span class="badge pro">PRO</span>' : '<span class="badge cas">CASUAL</span>');
+        let roleBadge = '';
+        if (p.role === 'organizadora') roleBadge = '<span class="badge" style="background:#ff4d94">ORGANIZADORA</span>';
+        else if (p.role === 'coordinador') roleBadge = '<span class="badge" style="background:#ffd700; color:black">COORDINADOR</span>';
+        
+        let typeBadge = '';
+        if (!hideNames) {
+          typeBadge = p.is_pro ? '<span class="badge pro">PRO</span>' : '<span class="badge cas">CASUAL</span>';
+        }
+        const badgeHTML = `${roleBadge} ${typeBadge}`.trim();
         
         // Load skin icon if available
         const skinUrl = (!hideNames && p.skin_name) ? await getSkinIconUrl(p.skin_name) : null;
@@ -3542,7 +3550,16 @@
       } catch (err) {
         // Fallback al snapshot si el API falla (ej. servidor apagado)
         try {
-          const snapRes = await fetch(`assets/data/snapshot.json?_t=${Date.now()}`);
+          // Primero leer el manifest para ver cual es el ultimo historial
+          const manifestRes = await fetch(`assets/data/manifest.json?_t=${Date.now()}`);
+          if (!manifestRes.ok) throw new Error('No manifest found');
+          const manifest = await manifestRes.json();
+          let snapFile = 'snapshot.json';
+          if (manifest.snapshots && manifest.snapshots.length > 0) {
+            snapFile = manifest.snapshots[0].file;
+          }
+          
+          const snapRes = await fetch(`assets/data/${snapFile}?_t=${Date.now()}`);
           if (!snapRes.ok) throw new Error('No snapshot found');
           const snapshot = await snapRes.json();
           window.OFFLINE_SNAPSHOT = snapshot;
