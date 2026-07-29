@@ -597,6 +597,7 @@
       transition: border-color 0.2s, transform 0.2s;
     }
 
+
     .info-card:hover {
       border-color: rgba(37, 183, 255, 0.25);
       transform: translateY(-2px);
@@ -617,7 +618,6 @@
       line-height: 1.3;
     }
 
-    /* ═══ SECTION WRAPPER ═══════════════════════════════════════════════════ */
     .section {
       border: 1px solid var(--border);
       border-radius: var(--radius);
@@ -648,63 +648,579 @@
       padding: 24px;
     }
 
-    /* ═══ ENHANCED UI ELEMENTS ══════════════════════════════════════════════ */
-    .player-cell { display: flex; align-items: center; gap: 12px; }
-    .avatar { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 18px; color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.4); text-shadow: 0 1px 2px rgba(0,0,0,0.5); flex-shrink: 0; }
-    .badge { font-size: 9px; font-weight: 800; padding: 3px 6px; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px; }
-    .badge.pro { background: rgba(255, 62, 138, 0.15); color: var(--pink); border: 1px solid rgba(255, 62, 138, 0.3); }
-    .badge.cas { background: rgba(49, 228, 127, 0.15); color: var(--green); border: 1px solid rgba(49, 228, 127, 0.3); }
-    .search-wrapper { display: flex; align-items: center; background: rgba(0,0,0,0.2); border: 1px solid var(--border); border-radius: 8px; padding: 6px 12px; }
-    .search-input { background: transparent; border: none; color: var(--text); font-family: inherit; font-size: 14px; outline: none; width: 200px; margin-left: 8px; }
-    .search-input::placeholder { color: var(--muted); }
-    .sortable { cursor: pointer; user-select: none; transition: color 0.2s; }
-    .sortable:hover { color: var(--text); }
-    .sort-icon { font-size: 10px; margin-left: 4px; opacity: 0.5; display: inline-block; width: 10px; }
+    .player-cell {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-    /* ═══ MODAL Y PERFIL ════════════════════════════════════════════════════ */
-    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: center; z-index: 9999; opacity: 0; pointer-events: none; transition: opacity 0.3s; padding: 20px; }
-    .modal-overlay.active { opacity: 1; pointer-events: auto; }
-    .modal-content { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); width: 100%; max-width: 500px; max-height: 90vh; overflow-y: auto; position: relative; box-shadow: var(--shadow); transform: translateY(20px); transition: transform 0.3s; padding: 24px; }
-    .modal-overlay.active .modal-content { transform: translateY(0); }
-    .modal-close { position: absolute; top: 16px; right: 16px; background: rgba(255,255,255,0.1); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
-    .modal-close:hover { background: rgba(255,255,255,0.2); }
-    
-    .profile-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
-    .profile-avatar { width: 64px; height: 64px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 800; text-shadow: 0 2px 4px rgba(0,0,0,0.5); box-shadow: 0 4px 12px rgba(0,0,0,0.4); flex-shrink: 0; color: #fff;}
-    .profile-name { font-size: 24px; font-weight: 800; font-family: Rajdhani, sans-serif; }
-    
-    .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 24px; }
-    .stat-box { background: rgba(0,0,0,0.3); border: 1px solid var(--border2); border-radius: 8px; padding: 14px; text-align: center; }
-    .stat-val { font-size: 22px; font-weight: 800; color: var(--blue); font-family: Rajdhani, sans-serif; line-height: 1; }
-    .stat-lbl { font-size: 10px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 6px; }
-    
-    .chart-container { display: flex; align-items: center; justify-content: space-evenly; margin-bottom: 24px; background: rgba(0,0,0,0.2); padding: 20px; border-radius: 8px; border: 1px solid var(--border2); }
-    .doughnut { width: 90px; height: 90px; border-radius: 50%; position: relative; flex-shrink: 0; }
-    .doughnut::after { content: ''; position: absolute; inset: 18px; background: var(--panel); border-radius: 50%; }
-    
-    .chart-legend { display: flex; flex-direction: column; gap: 8px; }
-    .legend-item { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 13px; font-weight: 600; color: #fff; min-width: 140px;}
-    .legend-left { display: flex; align-items: center; gap: 8px; }
-    .legend-color { width: 12px; height: 12px; border-radius: 3px; }
-    
-    .match-breakdown { display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
-    .match-card { background: rgba(255,255,255,0.02); border: 1px solid var(--border2); border-radius: 8px; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; transition: background 0.2s; }
-    .match-card:hover { background: rgba(255,255,255,0.04); }
-    .match-card-header { display: flex; align-items: center; gap: 12px; }
-    .match-number { font-size: 14px; font-weight: 800; color: var(--text); font-family: Rajdhani, sans-serif; background: rgba(0,0,0,0.3); padding: 4px 8px; border-radius: 4px; }
-    .match-stats { display: flex; gap: 16px; align-items: center; }
-    .m-stat { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 32px; }
-    .m-stat-val { font-size: 15px; font-weight: 800; color: var(--blue); font-family: Rajdhani, sans-serif; }
-    .m-stat-val.pos { color: var(--green); }
-    .m-stat-val.kills { color: var(--pink); }
-    .m-stat-lbl { font-size: 9px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-    .match-total { font-size: 18px; font-weight: 800; color: var(--gold); font-family: Rajdhani, sans-serif; min-width: 30px; text-align: right; }
+    .avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+      flex-shrink: 0;
+    }
 
-    .feed-title { font-size: 16px; font-weight: 700; font-family: Rajdhani, sans-serif; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
-    .feed-list { display: flex; flex-direction: column; gap: 8px; max-height: 200px; overflow-y: auto; padding-right: 8px; }
-    .feed-item { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 10px 12px; font-size: 13px; display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--pink); gap: 12px; }
-    .feed-info { display: flex; flex-direction: column; gap: 4px; }
-    .feed-time { font-size: 10px; color: var(--muted); font-weight: 700; background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px; align-self: flex-start;}
+    .badge {
+      font-size: 9px;
+      font-weight: 800;
+      padding: 3px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .badge.pro {
+      background: rgba(255, 62, 138, 0.15);
+      color: var(--pink);
+      border: 1px solid rgba(255, 62, 138, 0.3);
+    }
+
+    .badge.cas {
+      background: rgba(49, 228, 127, 0.15);
+      color: var(--green);
+      border: 1px solid rgba(49, 228, 127, 0.3);
+    }
+
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 12px;
+    }
+
+    .search-input {
+      background: transparent;
+      border: none;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      width: 200px;
+      margin-left: 8px;
+    }
+
+    .search-input::placeholder {
+      color: var(--muted);
+    }
+
+    .sortable {
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.2s;
+    }
+
+    .sortable:hover {
+      color: var(--text);
+    }
+
+    .sort-icon {
+      font-size: 10px;
+      margin-left: 4px;
+      opacity: 0.5;
+      display: inline-block;
+      width: 10px;
+    }
+
+    /* ═══ MODAL Y PERFIL (PREMIUM) ══════════════════════════════════════════ */
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.78);
+      backdrop-filter: blur(14px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.35s cubic-bezier(.4, 0, .2, 1);
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-content {
+      background: linear-gradient(160deg, #0d1928 0%, #0b1520 100%);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 22px;
+      width: 100%;
+      max-width: 480px; /* Default for mobile */
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+      box-shadow: 0 40px 100px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(255, 255, 255, 0.04);
+      transform: translateY(30px) scale(0.97);
+      transition: transform 0.38s cubic-bezier(.4, 0, .2, 1), max-width 0.3s ease;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+    }
+
+    @media (min-width: 768px) {
+      .modal-content {
+        max-width: 860px; /* Expand on PC */
+      }
+      .pm-body-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 24px;
+        align-items: start;
+      }
+    }
+
+    .modal-overlay.active .modal-content {
+      transform: translateY(0) scale(1);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 10;
+      background: rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      color: rgba(255, 255, 255, 0.65);
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-close:hover {
+      background: rgba(255, 255, 255, 0.14);
+      color: #fff;
+    }
+
+    /* Hero Banner */
+    .pm-hero {
+      position: relative; height: 140px;
+      border-radius: 22px 22px 0 0; overflow: hidden;
+    }
+    .pm-hero-bg {
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, #0a1c33 0%, #160a28 50%, #001428 100%);
+    }
+    .pm-hero-glow {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 25% 65%, rgba(37,183,255,0.35) 0%, transparent 60%),
+        radial-gradient(ellipse at 78% 25%, rgba(139,92,246,0.28) 0%, transparent 55%);
+    }
+    .pm-hero-grid {
+      position: absolute; inset: 0; opacity: 0.06;
+      background-image: linear-gradient(rgba(255,255,255,1) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px);
+      background-size: 26px 26px;
+    }
+    .pm-hero-overlay {
+      position: absolute; bottom: 0; left: 0; right: 0; height: 80px;
+      background: linear-gradient(transparent, #0d1928);
+    }
+    /* Avatar sits BELOW the hero, overlapping it with negative margin */
+    .pm-avatar-wrap {
+      display: block;
+      width: 90px; height: 90px; border-radius: 50%;
+      border: 3px solid rgba(37,183,255,0.3);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.7), 0 0 0 6px rgba(37,183,255,0.07);
+      overflow: hidden; background: #1a2744;
+      margin-top: -45px; margin-left: 20px; margin-bottom: 12px; flex-shrink: 0;
+      position: relative; z-index: 2;
+    }
+    .pm-avatar-letter {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 36px; font-weight: 900; color: #fff;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+    }
+    .pm-avatar-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+
+    /* Info — no big top padding needed since avatar is placed by negative margin */
+    .pm-info { padding: 12px 22px 22px; }
+
+    .pm-name {
+      font-size: 23px;
+      font-weight: 900;
+      font-family: Rajdhani, sans-serif;
+      letter-spacing: 0.3px;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+
+    .pm-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 22px;
+    }
+
+    .pm-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .pm-badge.pro {
+      background: rgba(99, 102, 241, 0.16);
+      border: 1px solid rgba(99, 102, 241, 0.38);
+      color: #a5b4fc;
+    }
+
+    .pm-badge.cas {
+      background: rgba(16, 185, 129, 0.14);
+      border: 1px solid rgba(16, 185, 129, 0.32);
+      color: #6ee7b7;
+    }
+
+    .pm-badge.org {
+      background: rgba(255, 77, 148, 0.14);
+      border: 1px solid rgba(255, 77, 148, 0.35);
+      color: #ff85c0;
+    }
+
+    .pm-badge.coord {
+      background: rgba(250, 204, 21, 0.14);
+      border: 1px solid rgba(250, 204, 21, 0.32);
+      color: #fde047;
+    }
+
+    /* Stats strip */
+    .pm-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.055);
+      overflow: hidden;
+      margin-bottom: 22px;
+    }
+
+    .pm-stat {
+      padding: 16px 10px;
+      text-align: center;
+      position: relative;
+    }
+
+    .pm-stat+.pm-stat::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 18%;
+      height: 64%;
+      width: 1px;
+      background: rgba(255, 255, 255, 0.055);
+    }
+
+    .pm-stat-val {
+      font-size: 28px;
+      font-weight: 900;
+      font-family: Rajdhani, sans-serif;
+      line-height: 1;
+      background: linear-gradient(135deg, #25b7ff, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .pm-stat-val.green {
+      background: linear-gradient(135deg, #10b981, #34d399);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .pm-stat-val.pink {
+      background: linear-gradient(135deg, #f43f5e, #fb7185);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .pm-stat-lbl {
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-top: 5px;
+    }
+
+    /* Points breakdown bar */
+    .pm-chart-wrap {
+      background: rgba(0, 0, 0, 0.22);
+      border: 1px solid rgba(255, 255, 255, 0.055);
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin-bottom: 22px;
+    }
+
+    .pm-chart-title {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .pm-bar-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 9px;
+    }
+
+    .pm-bar-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      min-width: 76px;
+    }
+
+    .pm-bar-track {
+      flex: 1;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .pm-bar-fill {
+      height: 100%;
+      border-radius: 10px;
+      transition: width 0.65s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    .pm-bar-pts {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text);
+      min-width: 34px;
+      text-align: right;
+    }
+
+    /* Section title */
+    .pm-section-title {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .pm-section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.055);
+    }
+
+    /* Match cards */
+    .pm-matches {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .pm-match {
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(255, 255, 255, 0.055);
+      border-radius: 12px;
+      padding: 14px 16px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 14px;
+      transition: background 0.18s;
+    }
+
+    .pm-match:hover {
+      background: rgba(255, 255, 255, 0.045);
+    }
+
+    .pm-match-num {
+      font-size: 11px;
+      font-weight: 900;
+      font-family: Rajdhani, sans-serif;
+      color: #000;
+      background: var(--blue);
+      padding: 3px 9px;
+      border-radius: 20px;
+    }
+
+    .pm-match-chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pm-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: 8px;
+      padding: 6px 10px;
+      min-width: 46px;
+    }
+
+    .pm-chip-val {
+      font-size: 15px;
+      font-weight: 900;
+      font-family: Rajdhani, sans-serif;
+      line-height: 1;
+    }
+
+    .pm-chip-val.pos {
+      color: var(--green);
+    }
+
+    .pm-chip-val.kills {
+      color: var(--pink);
+    }
+
+    .pm-chip-lbl {
+      font-size: 8px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    .pm-match-pts {
+      font-size: 24px;
+      font-weight: 900;
+      font-family: Rajdhani, sans-serif;
+      color: var(--gold);
+      text-align: right;
+      white-space: nowrap;
+      line-height: 1;
+    }
+
+    .pm-match-pts span {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--muted);
+      display: block;
+      margin-top: 2px;
+    }
+
+    /* Elims */
+    .pm-elim-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-height: 170px;
+      overflow-y: auto;
+      padding-right: 4px;
+      margin-bottom: 6px;
+    }
+
+    .pm-elim {
+      background: rgba(244, 63, 94, 0.04);
+      border: 1px solid rgba(244, 63, 94, 0.12);
+      border-left: 3px solid var(--pink);
+      border-radius: 0 10px 10px 0;
+      padding: 9px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+    }
+
+    .pm-elim-victim {
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .pm-elim-meta {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .pm-elim-time {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--muted);
+      background: rgba(0, 0, 0, 0.35);
+      padding: 2px 7px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+
+    .pm-offline-badge {
+      margin-top: 4px;
+      padding: 10px 16px;
+      border-radius: 10px;
+      background: rgba(37, 183, 255, 0.05);
+      border: 1px solid rgba(37, 183, 255, 0.15);
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 0.3px;
+    }
+
+    /* legacy classes hidden */
+    .profile-header,
+    .profile-avatar,
+    .profile-name,
+    .chart-container,
+    .doughnut,
+    .chart-legend,
+    .legend-item,
+    .legend-left,
+    .legend-color,
+    .match-breakdown,
+    .match-card,
+    .match-card-header,
+    .match-number,
+    .match-stats,
+    .m-stat,
+    .m-stat-val,
+    .m-stat-lbl,
+    .match-total,
+    .feed-title,
+    .feed-list,
+    .feed-item,
+    .feed-info,
+    .feed-time,
+    .stats-grid,
+    .stat-box,
+    .stat-val,
+    .stat-lbl {
+      display: none;
+    }
+
 
     /* ═══ STANDINGS TABLE ═══════════════════════════════════════════════════ */
     .table-wrap {
@@ -718,7 +1234,8 @@
     .tbl {
       width: 100%;
       border-collapse: separate;
-      border-spacing: 0 8px; /* Espacio entre filas */
+      border-spacing: 0 8px;
+      /* Espacio entre filas */
       min-width: 580px;
     }
 
@@ -730,7 +1247,8 @@
       text-transform: uppercase;
       color: var(--muted);
       text-align: left;
-      border-bottom: none; /* Quitamos borde de cabecera */
+      border-bottom: none;
+      /* Quitamos borde de cabecera */
       background: transparent;
       position: sticky;
       top: 0;
@@ -748,14 +1266,15 @@
     .tbl tbody tr {
       transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
       background: rgba(255, 255, 255, 0.02);
-      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     }
-    
+
     .tbl tbody tr td:first-child {
       border-top-left-radius: 8px;
       border-bottom-left-radius: 8px;
       border-left: 2px solid transparent;
     }
+
     .tbl tbody tr td:last-child {
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
@@ -764,21 +1283,24 @@
     .tbl tbody tr:hover {
       background: rgba(255, 255, 255, 0.05);
       transform: translateY(-2px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     }
 
     .tbl tbody tr.is-leader.rank-1 {
       background: linear-gradient(90deg, rgba(249, 199, 79, 0.1) 0%, rgba(249, 199, 79, 0.02) 100%);
       border-left-color: var(--gold);
     }
+
     .tbl tbody tr.is-leader.rank-2 {
       background: linear-gradient(90deg, rgba(184, 193, 204, 0.08) 0%, rgba(184, 193, 204, 0.02) 100%);
       border-left-color: var(--silver);
     }
+
     .tbl tbody tr.is-leader.rank-3 {
       background: linear-gradient(90deg, rgba(217, 144, 88, 0.08) 0%, rgba(217, 144, 88, 0.02) 100%);
       border-left-color: var(--bronze);
     }
+
     .tbl tbody tr.is-leader:hover {
       background: rgba(255, 255, 255, 0.07);
     }
@@ -2587,11 +3109,14 @@
             <div class="section-title">Tabla General</div>
             <div class="search-wrapper">
               <span style="opacity: 0.5;">🔍</span>
-              <input type="search" class="search-input" id="search-global" placeholder="Buscar jugador..." oninput="handleSearch(this.value)">
+              <input type="search" class="search-input" id="search-global" placeholder="Buscar jugador..."
+                oninput="handleSearch(this.value)">
             </div>
           </div>
-          <div id="pending-results-banner" style="display:none; padding:12px 16px; border-radius:12px; background:rgba(245, 158, 11, 0.1); border:1px solid rgba(245, 158, 11, 0.3); color:#fcd34d; font-size:13px; font-weight:600; margin-bottom:16px; align-items:center; gap:10px;">
-            <span style="font-size:16px;">⏳</span> La coordinación del torneo está analizando los resultados de la última partida. La tabla se actualizará pronto.
+          <div id="pending-results-banner"
+            style="display:none; padding:12px 16px; border-radius:12px; background:rgba(245, 158, 11, 0.1); border:1px solid rgba(245, 158, 11, 0.3); color:#fcd34d; font-size:13px; font-weight:600; margin-bottom:16px; align-items:center; gap:10px;">
+            <span style="font-size:16px;">⏳</span> La coordinación del torneo está analizando los resultados de la
+            última partida. La tabla se actualizará pronto.
           </div>
           <div class="table-wrap">
             <table class="tbl" id="global-table">
@@ -2599,9 +3124,12 @@
                 <tr>
                   <th>#</th>
                   <th>Jugador</th>
-                  <th class="c sortable" onclick="handleSort('matches_played')">Partidas <span class="sort-icon" id="sort-matches_played"></span></th>
-                  <th class="c sortable" onclick="handleSort('total_kills')">⚔️ Kills <span class="sort-icon" id="sort-total_kills"></span></th>
-                  <th class="r sortable" onclick="handleSort('total_points')">🏆 Puntos <span class="sort-icon" id="sort-total_points">▼</span></th>
+                  <th class="c sortable" onclick="handleSort('matches_played')">Partidas <span class="sort-icon"
+                      id="sort-matches_played"></span></th>
+                  <th class="c sortable" onclick="handleSort('total_kills')">⚔️ Kills <span class="sort-icon"
+                      id="sort-total_kills"></span></th>
+                  <th class="r sortable" onclick="handleSort('total_points')">🏆 Puntos <span class="sort-icon"
+                      id="sort-total_points">▼</span></th>
                 </tr>
               </thead>
               <tbody id="standings-body">
@@ -2721,19 +3249,22 @@
                 <div class="challenge-text"><strong>Masca La Hierba:</strong> Gana la partida sin eliminar a nadie —
                   <strong style="color:var(--pink);">+10 pts</strong>
                 </div>
-              </div>
-              <div class="challenge-item">
-                <div class="challenge-icon">3</div>
-                <div class="challenge-text"><strong>Es el Tiro Loco:</strong> Ganar una partida usando como arma únicamente sniper (no se podrá usar otra arma, unicamente de la misma categoría) — <strong style="color:var(--pink);">+15 pts</strong></div>
-              </div>
-              <div class="challenge-item">
-                <div class="challenge-icon">4</div>
-                <div class="challenge-text"><strong>CapiEilish:</strong> Gana la partida usando la skin de Billie Eilish
-                  — <strong style="color:var(--pink);">+10 pts</strong></div>
-              </div>
+                </ div>
+                <div class="challenge-item">
+                  <div class="challenge-icon">3</div>
+                  <div class="challenge-text"><strong>Es el Tiro Loco:</strong> Ganar una partida usando como arma
+                    únicamente sniper (no se podrá usar otra arma, unicamente de la misma categoría) — <strong
+                      style="color:var(--pink);">+15 pts</strong></div>
+                </div>
+                <div class="challenge-item">
+                  <div class="challenge-icon">4</div>
+                  <div class="challenge-text"><strong>CapiEilish:</strong> Gana la partida usando la skin de Billie
+                    Eilish
+                    — <strong style="color:var(--pink);">+10 pts</strong></div>
+                </div>
 
-              <!-- ── Desafío especial: ¿Quien CapiManda? ── -->
-              <div class="challenge-item" style="
+                <!-- ── Desafío especial: ¿Quien CapiManda? ── -->
+                <div class="challenge-item" style="
                 padding: 0;
                 overflow: hidden;
                 border: 1px solid rgba(245, 158, 11, 0.35);
@@ -2742,15 +3273,14 @@
                 justify-content: flex-start;
                 gap: 0;
               ">
-                <!-- Imagen izquierda: miniatura vertical fija -->
-                <div style="
+                  <!-- Imagen izquierda: miniatura vertical fija -->
+                  <div style="
                   width: 155px;
                   flex-shrink: 0;
                   overflow: hidden;
                   position: relative;
                 ">
-                  <img src="./assets/img/CondesaDaraku.jpg" alt="Condesa Daraku - yocapi_pr"
-                    style="
+                    <img src="./assets/img/CondesaDaraku.jpg" alt="Condesa Daraku - yocapi_pr" style="
                       width: 100%;
                       height: 100%;
                       display: block;
@@ -2758,20 +3288,20 @@
                       object-position: center 30%;
                       filter: brightness(0.8) saturate(1.1);
                     ">
-                  <div style="
+                    <div style="
                     position:absolute; inset:0;
                     background: linear-gradient(to top, rgba(6,9,18,0.85) 0%, transparent 60%);
                   "></div>
-                  <div style="
+                    <div style="
                     position:absolute; bottom:6px; left:4px; right:4px; text-align:center;
                     font-size:10px; font-weight:600; color:rgba(255,255,255,0.9);
                     line-height:1.2; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
                   ">Skin que usará TheKingXavi. en la partida</div>
-                </div>
+                  </div>
 
-                <!-- Texto derecha -->
-                <div style="display:flex; align-items:flex-start; gap:14px; padding:16px 18px 16px 18px;">
-                  <div class="challenge-icon" style="
+                  <!-- Texto derecha -->
+                  <div style="display:flex; align-items:flex-start; gap:14px; padding:16px 18px 16px 18px;">
+                    <div class="challenge-icon" style="
                     background: linear-gradient(135deg, rgba(245,158,11,0.2), rgba(239,68,68,0.2));
                     border: 1px solid rgba(245,158,11,0.4);
                     color: #fbbf24;
@@ -2779,19 +3309,21 @@
                     font-weight: 900;
                     flex-shrink: 0;
                   ">5</div>
-                  <div class="challenge-text">
-                    <strong style="font-size:15px; color:#fbbf24; display:block; margin-bottom:4px;">¿Quien CapiManda?</strong>
-                    Demuestra quién manda eliminando a
-                    <strong style="color:#f87171;">TheKingXavi. (CapiLuisXavi)</strong>
-                    — <strong style="color:var(--pink);">+15 pts</strong>
-                    <em style="display:block; margin-top:6px;">La información de este desafío se dirá en directo. Suerte con la cacería y que gane el mejor.</em>
+                    <div class="challenge-text">
+                      <strong style="font-size:15px; color:#fbbf24; display:block; margin-bottom:4px;">¿Quien
+                        CapiManda?</strong>
+                      Demuestra quién manda eliminando a
+                      <strong style="color:#f87171;">TheKingXavi. (CapiLuisXavi)</strong>
+                      — <strong style="color:var(--pink);">+15 pts</strong>
+                      <em style="display:block; margin-top:6px;">La información de este desafío se dirá en directo.
+                        Suerte con la cacería y que gane el mejor.</em>
+                    </div>
                   </div>
                 </div>
-              </div>
 
+              </div>
             </div>
           </div>
-        </div>
       </section>
 
       <!-- ── PUNTUACIÓN ──────────────────────────────────────────────────── -->
@@ -2892,7 +3424,9 @@
               </div>
               <div class="rule-item">
                 <div class="rule-icon">6</div>
-                <div class="rule-text"><strong>Soporte:</strong> <strong style="color:var(--pink);">Ante cualquier discrepancia en los resultados, abrir ticket en el servidor de yocapi_pr para visualizar el problema.</strong>
+                <div class="rule-text"><strong>Soporte:</strong> <strong style="color:var(--pink);">Ante cualquier
+                    discrepancia en los resultados, abrir ticket en el servidor de yocapi_pr para visualizar el
+                    problema.</strong>
                 </div>
               </div>
             </div>
@@ -2958,34 +3492,45 @@
             <p class="section-sub">Consulta el estado del torneo en distintos momentos guardados.</p>
           </div>
         </div>
-        <div id="history-list" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap:16px;">
+        <div id="history-list"
+          style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap:16px;">
           <div class="empty-msg" style="grid-column:1/-1; padding:40px;">Cargando historial...</div>
         </div>
 
         <!-- Visor del snapshot seleccionado -->
         <div id="history-viewer" style="display:none; margin-top:36px;">
           <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px;">
-            <button onclick="closeHistoryViewer()" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); color:var(--text); padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:600; display:flex; align-items:center; gap:6px;">← Volver</button>
+            <button onclick="closeHistoryViewer()"
+              style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); color:var(--text); padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:600; display:flex; align-items:center; gap:6px;">←
+              Volver</button>
             <h3 id="history-viewer-title" style="font-size:1.1rem; font-weight:700;"></h3>
           </div>
 
           <!-- Tabs del visor -->
           <div style="display:flex; gap:8px; margin-bottom:20px; flex-wrap:wrap;">
-            <button class="hist-tab-btn active" onclick="showHistTab('global', this)" style="background:rgba(37,183,255,0.15); border:1px solid rgba(37,183,255,0.4); color:var(--blue); padding:7px 16px; border-radius:8px; cursor:pointer; font-weight:600; font-size:13px;">🏆 Clasificación Global</button>
-            <button class="hist-tab-btn" onclick="showHistTab('partidas', this)" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:var(--muted); padding:7px 16px; border-radius:8px; cursor:pointer; font-weight:600; font-size:13px;">⚔️ Por Partida</button>
+            <button class="hist-tab-btn active" onclick="showHistTab('global', this)"
+              style="background:rgba(37,183,255,0.15); border:1px solid rgba(37,183,255,0.4); color:var(--blue); padding:7px 16px; border-radius:8px; cursor:pointer; font-weight:600; font-size:13px;">🏆
+              Clasificación Global</button>
+            <button class="hist-tab-btn" onclick="showHistTab('partidas', this)"
+              style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:var(--muted); padding:7px 16px; border-radius:8px; cursor:pointer; font-weight:600; font-size:13px;">⚔️
+              Por Partida</button>
           </div>
 
           <div id="hist-tab-global">
-            <div class="tbl-wrap"><table class="tbl" id="history-global-table">
-              <thead><tr>
-                <th class="c">#</th>
-                <th>Jugador</th>
-                <th class="c">Puntos</th>
-                <th class="c">Kills</th>
-                <th class="c">Partidas</th>
-              </tr></thead>
-              <tbody id="history-global-body"></tbody>
-            </table></div>
+            <div class="tbl-wrap">
+              <table class="tbl" id="history-global-table">
+                <thead>
+                  <tr>
+                    <th class="c">#</th>
+                    <th>Jugador</th>
+                    <th class="c">Puntos</th>
+                    <th class="c">Kills</th>
+                    <th class="c">Partidas</th>
+                  </tr>
+                </thead>
+                <tbody id="history-global-body"></tbody>
+              </table>
+            </div>
           </div>
 
           <div id="hist-tab-partidas" style="display:none;">
@@ -3085,7 +3630,7 @@
 
     function renderGlobal(newRows) {
       if (newRows) globalStandingsData = newRows;
-      
+
       const body = document.getElementById('standings-body');
       if (!globalStandingsData || !globalStandingsData.length) {
         body.innerHTML = `<tr><td class="empty-msg" colspan="5">Aún no hay resultados publicados.</td></tr>`;
@@ -3095,7 +3640,7 @@
       // Filter
       let filtered = globalStandingsData;
       if (currentSearch) {
-        filtered = filtered.filter(p => 
+        filtered = filtered.filter(p =>
           (p.display_name || p.username).toLowerCase().includes(currentSearch)
         );
       }
@@ -3110,7 +3655,7 @@
           valA = (a[currentSort.col] || '').toString().toLowerCase();
           valB = (b[currentSort.col] || '').toString().toLowerCase();
         }
-        
+
         if (valA < valB) return currentSort.dir === 'asc' ? -1 : 1;
         if (valA > valB) return currentSort.dir === 'asc' ? 1 : -1;
         return 0;
@@ -3123,25 +3668,25 @@
 
       body.innerHTML = '';
       if (filtered.length === 0) {
-         body.innerHTML = `<tr><td class="empty-msg" colspan="5">No se encontraron jugadores.</td></tr>`;
+        body.innerHTML = `<tr><td class="empty-msg" colspan="5">No se encontraron jugadores.</td></tr>`;
       }
       filtered.forEach((p, i) => {
         // Original Rank
         const origIndex = globalStandingsData.findIndex(x => x.username === p.username);
-        
+
         const tr = document.createElement('tr');
         if (origIndex === 0) tr.classList.add('is-leader', 'rank-1');
         else if (origIndex === 1) tr.classList.add('is-leader', 'rank-2');
         else if (origIndex === 2) tr.classList.add('is-leader', 'rank-3');
         tr.style.cursor = 'pointer';
         tr.onclick = () => openPlayerModal(p.username);
-        
+
         const rawName = p.display_name || p.username;
         const name = hideNames ? "Jugador Misterioso" : rawName;
         const initial = name.charAt(0).toUpperCase();
         const color = getAvatarColor(name);
         const badgeHTML = hideNames ? '' : (p.is_pro ? '<span class="badge pro">PRO</span>' : '<span class="badge cas">CASUAL</span>');
-        
+
         let roleBadgeHTML = '';
         if (!hideNames && p.role) {
           let r = p.role.toLowerCase();
@@ -3151,10 +3696,10 @@
             roleBadgeHTML = `<span style="display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;color:var(--blue);background:rgba(37,183,255,0.1);padding:4px 8px;border-radius:6px;margin-left:8px;border:1px solid rgba(37,183,255,0.3);text-transform:uppercase;letter-spacing:0.5px;">Coordinador</span>`;
           }
         }
-        
+
         // Avatar HTML (letter-based, will be replaced with skin icon asynchronously)
-        const avatarId = `av-${p.username.replace(/[^a-zA-Z0-9]/g,'_')}`;
-        
+        const avatarId = `av-${p.username.replace(/[^a-zA-Z0-9]/g, '_')}`;
+
         tr.innerHTML = `
           <td><div class="rk ${rk(origIndex)}">${origIndex + 1}</div></td>
           <td>
@@ -3171,7 +3716,7 @@
           <td class="c">${Number(p.total_kills || 0)}</td>
           <td class="r pts-g ${rk(origIndex)}">${Number(p.total_points || 0)}</td>`;
         body.appendChild(tr);
-        
+
         // If player has a skin, async load the avatar image
         if (!hideNames && p.skin_name) {
           getSkinIconUrl(p.skin_name).then(url => {
@@ -3308,14 +3853,14 @@
     let currentSort = { col: 'total_points', dir: 'desc' };
     let currentSearch = '';
     const skinIconCache = {}; // skin_name -> image URL or null
-    
+
     async function getSkinIconUrl(skinName) {
       if (!skinName) return null;
       const key = skinName.toLowerCase().trim();
       if (key in skinIconCache) return skinIconCache[key];
-      
+
       const extractUrl = (data) => data?.data?.images?.smallIcon || data?.data?.images?.icon || null;
-      
+
       try {
         // If it starts with CID_, use direct ID lookup
         if (key.startsWith('cid_')) {
@@ -3327,7 +3872,7 @@
             return url;
           }
         }
-        
+
         // Try exact name match first
         const resExact = await fetch(`https://fortnite-api.com/v2/cosmetics/br/search?name=${encodeURIComponent(skinName.trim())}&matchMethod=full&type=outfit`);
         if (resExact.ok) {
@@ -3335,7 +3880,7 @@
           const url = extractUrl(data);
           if (url) { skinIconCache[key] = url; return url; }
         }
-        
+
         // Fallback: contains match (less precise)
         const resContains = await fetch(`https://fortnite-api.com/v2/cosmetics/br/search?name=${encodeURIComponent(skinName.trim())}&matchMethod=contains&type=outfit`);
         if (!resContains.ok) { skinIconCache[key] = null; return null; }
@@ -3346,7 +3891,7 @@
       } catch { skinIconCache[key] = null; return null; }
     }
 
-    
+
     function getAvatarColor(str) {
       let hash = 0;
       for (let i = 0; i < str.length; i++) {
@@ -3375,12 +3920,11 @@
     async function openPlayerModal(username) {
       const modal = document.getElementById('player-modal');
       const body = document.getElementById('modal-body-content');
-      body.innerHTML = '<div class="empty-msg" style="padding:40px">Cargando perfil...</div>';
+      body.innerHTML = '<div class="empty-msg" style="padding:60px; text-align:center;">Cargando perfil...</div>';
       modal.classList.add('active');
 
       try {
         let data;
-        // Si estamos en modo offline, leer del snapshot sin tocar el API
         if (window.OFFLINE_SNAPSHOT && window.OFFLINE_SNAPSHOT.players && window.OFFLINE_SNAPSHOT.players[username]) {
           data = window.OFFLINE_SNAPSHOT.players[username];
         } else {
@@ -3388,137 +3932,148 @@
           if (!res.ok) throw new Error('API error');
           data = await res.json();
         }
-        
+
         const p = data.player;
         const s = data.summary;
-        const elims = data.eliminations;
-        
+        const elims = data.eliminations || [];
+
         const rawName = p.display_name || p.username;
-        const name = hideNames ? "Jugador Misterioso" : rawName;
+        const name = hideNames ? 'Jugador Misterioso' : rawName;
         const initial = name.charAt(0).toUpperCase();
         const color = getAvatarColor(name);
-        let roleBadge = '';
-        if (p.role) {
-          let r = p.role.toLowerCase();
-          if (r.includes('organizadora')) roleBadge = '<span class="badge" style="background:#ff4d94">ORGANIZADORA</span>';
-          else if (r.includes('coordinador')) roleBadge = '<span class="badge" style="background:#ffd700; color:black">COORDINADOR</span>';
-        }
-        
-        let typeBadge = '';
-        if (!hideNames) {
-          typeBadge = p.is_pro ? '<span class="badge pro">PRO</span>' : '<span class="badge cas">CASUAL</span>';
-        }
-        const badgeHTML = `${roleBadge} ${typeBadge}`.trim();
-        
-        // Load skin icon if available
+
+        // Skin avatar
         const skinUrl = (!hideNames && p.skin_name) ? await getSkinIconUrl(p.skin_name) : null;
-        const avatarStyle = skinUrl
-          ? `background: url('${skinUrl}') center/cover; box-shadow: 0 0 0 3px rgba(255,255,255,0.1);`
-          : `background:${color}`;
-        const avatarContent = skinUrl ? '' : initial;
-        
-        // Calculate chart percentages
-        const total = s.total_points || 1; // avoid division by zero
-        const pPlacement = (s.placement_points / total) * 100;
-        const pKills = (s.kill_points / total) * 100;
-        const pBonus = (s.bonus_points / total) * 100;
-        
-        // Build matches breakdown HTML
+        const avatarHTML = skinUrl
+          ? `<img src="${skinUrl}" onerror="this.parentNode.innerHTML='<div class=pm-avatar-letter>${initial}</div>'" />`
+          : `<div class="pm-avatar-letter" style="background:${color}">${initial}</div>`;
+
+        // Badges
+        let bHTML = '';
+        if (p.role) {
+          const r = p.role.toLowerCase();
+          if (r.includes('organizadora')) bHTML += `<span class="pm-badge org">👑 Organizadora</span>`;
+          else if (r.includes('coordinador')) bHTML += `<span class="pm-badge coord">🎯 Coordinador</span>`;
+        }
+        if (!hideNames) {
+          bHTML += p.is_pro
+            ? `<span class="pm-badge pro">⚡ PRO</span>`
+            : `<span class="pm-badge cas">🎮 Casual</span>`;
+        }
+
+        // Bar chart widths
+        const total = s.total_points || 1;
+        const wPlacement = Math.round((s.placement_points / total) * 100);
+        const wKills     = Math.round((s.kill_points / total) * 100);
+        const wBonus     = Math.round(((s.bonus_points || 0) / total) * 100);
+
+        // Matches HTML
         const matches = data.matches || [];
         let matchesHTML = '';
         if (matches.length === 0) {
-          matchesHTML = '<div class="empty-msg" style="padding:10px; font-size:13px">Sin partidas registradas.</div>';
+          matchesHTML = '<div class="empty-msg" style="padding:14px; font-size:13px;">Sin partidas registradas.</div>';
         } else {
           matches.forEach(m => {
             matchesHTML += `
-              <div class="match-card">
-                <div class="match-card-header">
-                  <div class="match-number">P${m.match_number}</div>
-                  <div class="match-stats">
-                    <div class="m-stat"><span class="m-stat-val pos">${m.position || '-'}°</span><span class="m-stat-lbl">Top (${m.placement_points} pts)</span></div>
-                    <div class="m-stat"><span class="m-stat-val kills">${m.kills}</span><span class="m-stat-lbl">Kills (${m.kill_points} pts)</span></div>
+              <div class="pm-match">
+                <div class="pm-match-num">P${m.match_number}</div>
+                <div class="pm-match-chips">
+                  <div class="pm-chip">
+                    <span class="pm-chip-val pos">${m.position != null ? m.position + 'º' : '—'}</span>
+                    <span class="pm-chip-lbl">Top · ${m.placement_points ?? 0} pts</span>
+                  </div>
+                  <div class="pm-chip">
+                    <span class="pm-chip-val kills">${m.kills ?? 0}</span>
+                    <span class="pm-chip-lbl">Kills · ${m.kill_points ?? 0} pts</span>
                   </div>
                 </div>
-                <div class="match-total">${m.total_points} <span style="font-size:10px; color:var(--muted)">pts</span></div>
+                <div class="pm-match-pts">${m.total_points ?? 0}<span>pts</span></div>
               </div>`;
           });
         }
-        
+
+        // Eliminations HTML
         let elimsHTML = '';
-        if (elims.length === 0) {
-          elimsHTML = '<div class="empty-msg" style="padding:10px; font-size:13px">Sin eliminaciones registradas.</div>';
-        } else {
-          elims.forEach(e => {
-            const victim = hideNames ? "Jugador Misterioso" : e.eliminated;
-            elimsHTML += `
-              <div class="feed-item">
-                <div class="feed-info">
-                  <strong>Eliminó a ${esc(victim)}</strong>
-                  <span style="font-size:11px; color:var(--muted)">Partida ${e.match_number} · Arma: ${esc(e.weapon || 'Desconocida')}</span>
-                </div>
-                <div class="feed-time">${e.time || '--:--'}</div>
-              </div>`;
-          });
-        }
-        
+        elims.forEach(e => {
+          const victim = hideNames ? 'Jugador Misterioso' : e.eliminated;
+          elimsHTML += `
+            <div class="pm-elim">
+              <div>
+                <div class="pm-elim-victim">⚔️ ${esc(victim)}</div>
+                <div class="pm-elim-meta">Partida ${e.match_number} · ${esc(e.weapon || 'Desconocida')}</div>
+              </div>
+              <div class="pm-elim-time">${e.time || '--:--'}</div>
+            </div>`;
+        });
+
         body.innerHTML = `
-          <div class="profile-header">
-            <div class="profile-avatar" style="${avatarStyle}">${avatarContent}</div>
-            <div>
-              <div class="profile-name">${esc(name)}</div>
-              <div style="margin-top:4px">${badgeHTML}</div>
-            </div>
+          <div class="pm-hero">
+            <div class="pm-hero-bg"></div>
+            <div class="pm-hero-glow"></div>
+            <div class="pm-hero-grid"></div>
+            <div class="pm-hero-overlay"></div>
           </div>
-          
-          <div class="stats-grid">
-            <div class="stat-box">
-              <div class="stat-val">${s.total_points}</div>
-              <div class="stat-lbl">Pts Totales</div>
+
+          <div class="pm-info">
+            <div class="pm-avatar-wrap">${avatarHTML}</div>
+            <div class="pm-name">${esc(name)}</div>
+            <div class="pm-badges">${bHTML}</div>
+
+            <div class="pm-body-grid">
+              <div class="pm-col-left">
+                <div class="pm-stats">
+                  <div class="pm-stat">
+                    <div class="pm-stat-val">${s.total_points ?? 0}</div>
+                    <div class="pm-stat-lbl">Puntos</div>
+                  </div>
+                  <div class="pm-stat">
+                    <div class="pm-stat-val pink">${Math.round((s.kill_points || 0) / 1)}</div>
+                    <div class="pm-stat-lbl">Pts Kills</div>
+                  </div>
+                  <div class="pm-stat">
+                    <div class="pm-stat-val green">${s.matches_played ?? 0}</div>
+                    <div class="pm-stat-lbl">Partidas</div>
+                  </div>
+                </div>
+
+                <div class="pm-chart-wrap">
+                  <div class="pm-chart-title">Distribución de Puntos</div>
+                  <div class="pm-bar-row">
+                    <span class="pm-bar-label">🏅 Posición</span>
+                    <div class="pm-bar-track"><div class="pm-bar-fill" style="width:${wPlacement}%; background:linear-gradient(90deg,#10b981,#34d399)"></div></div>
+                    <span class="pm-bar-pts">${s.placement_points ?? 0}</span>
+                  </div>
+                  <div class="pm-bar-row">
+                    <span class="pm-bar-label">⚔️ Kills</span>
+                    <div class="pm-bar-track"><div class="pm-bar-fill" style="width:${wKills}%; background:linear-gradient(90deg,#f43f5e,#fb7185)"></div></div>
+                    <span class="pm-bar-pts">${s.kill_points ?? 0}</span>
+                  </div>
+                  <div class="pm-bar-row" style="margin-bottom:0">
+                    <span class="pm-bar-label">🌟 Bonus</span>
+                    <div class="pm-bar-track"><div class="pm-bar-fill" style="width:${wBonus}%; background:linear-gradient(90deg,#f59e0b,#fcd34d)"></div></div>
+                    <span class="pm-bar-pts">${s.bonus_points ?? 0}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pm-col-right">
+                <div class="pm-section-title">📊 Desglose por Partida</div>
+                <div class="pm-matches">${matchesHTML}</div>
+
+                ${elimsHTML ? `
+                <div class="pm-section-title">⚔️ Eliminaciones</div>
+                <div class="pm-elim-list">${elimsHTML}</div>
+                ` : ''}
+              </div>
             </div>
-            <div class="stat-box">
-              <div class="stat-val">${s.matches_played}</div>
-              <div class="stat-lbl">Partidas Jugadas</div>
-            </div>
-          </div>
-          
-          <div class="chart-container">
-            <div class="doughnut" style="background: conic-gradient(var(--green) 0% ${pPlacement}%, var(--pink) ${pPlacement}% ${pPlacement + pKills}%, var(--gold) ${pPlacement + pKills}% 100%)"></div>
-            <div class="chart-legend">
-              <div class="legend-item"><div class="legend-left"><div class="legend-color" style="background:var(--green)"></div> Top (${Math.round(pPlacement)}%)</div> <span>${s.placement_points} pts</span></div>
-              <div class="legend-item"><div class="legend-left"><div class="legend-color" style="background:var(--pink)"></div> Kills (${Math.round(pKills)}%)</div> <span>${s.kill_points} pts</span></div>
-              <div class="legend-item"><div class="legend-left"><div class="legend-color" style="background:var(--gold)"></div> Bonus (${Math.round(pBonus)}%)</div> <span>${s.bonus_points} pts</span></div>
-            </div>
-          </div>
-          
-          <div class="feed-title">📊 Desglose por Partida</div>
-          <div class="match-breakdown">
-            ${matchesHTML}
-          </div>
-          
-          <div class="feed-title">⚔️ Historial de Eliminaciones</div>
-          <div class="feed-list">
-            ${elimsHTML}
           </div>
         `;
+
       } catch (err) {
-        // Último recurso: intentar cargar snapshot en este momento si no está cargado aún
-        try {
-          if (!window.OFFLINE_SNAPSHOT) {
-            const snapRes = await fetch(`assets/data/snapshot.json?_t=${Date.now()}`);
-            if (snapRes.ok) {
-              window.OFFLINE_SNAPSHOT = await snapRes.json();
-            }
-          }
-          const snap = window.OFFLINE_SNAPSHOT;
-          if (snap && snap.players && snap.players[username]) {
-            // Re-open using snapshot data (recursive call won't loop since OFFLINE_SNAPSHOT is now set)
-            await openPlayerModal(username);
-            return;
-          }
-        } catch (snapErr) { /* ignorar */ }
         body.innerHTML = '<div class="empty-msg" style="padding:40px; color:#ff4d4d">Error al cargar el perfil.</div>';
       }
     }
+
 
     function closePlayerModal(e, force = false) {
       if (force || e.target.id === 'player-modal') {
@@ -3561,7 +4116,7 @@
         return;
       }
       hideNames = settings.hide_names;
-      
+
       const banner = document.getElementById('pending-results-banner');
       if (banner) {
         const hasUnpublished = matches && matches.some(m => m.is_published === false);
@@ -3584,7 +4139,7 @@
       document.getElementById('standings-updated').textContent = `Actualizado ${now}`;
       const miniUpdated = document.getElementById('mini-updated');
       if (miniUpdated) miniUpdated.textContent = `Actualizado ${now}`;
-      
+
       const offlineBanner = document.getElementById('offline-banner');
       if (isOffline) {
         if (!offlineBanner) {
@@ -3656,7 +4211,7 @@
             ${s.description ? `<div style="font-size:13px; color:var(--muted); margin-bottom:14px;">${s.description}</div>` : ''}
             ${s.top3 ? `<div style="display:flex; gap:6px; flex-wrap:wrap;">
               ${s.top3.map((p, idx) => `<div style="display:flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); padding:4px 10px; border-radius:20px; font-size:12px;">
-                <span>${['🥇','🥈','🥉'][idx]}</span> <span>${p}</span>
+                <span>${['🥇', '🥈', '🥉'][idx]}</span> <span>${p}</span>
               </div>`).join('')}
             </div>` : ''}
             <div style="margin-top:14px; font-size:12px; color:var(--blue); font-weight:600;">Ver detalles →</div>
@@ -3723,16 +4278,16 @@
         body.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:30px; color:var(--muted);">Sin datos</td></tr>';
         return;
       }
-      const medals = ['🥇','🥈','🥉'];
+      const medals = ['🥇', '🥈', '🥉'];
       body.innerHTML = standings.map((p, i) => {
         const rank = i + 1;
         const medal = medals[i] || '';
         const name = p.display_name || p.username || '?';
         const badge = p.is_pro ? '<span class="badge pro" style="font-size:10px; padding:2px 7px;">PRO</span>' : '';
         const rowStyle = rank === 1 ? 'background:rgba(249,199,79,0.06);' : rank === 2 ? 'background:rgba(184,193,204,0.05);' : rank === 3 ? 'background:rgba(217,144,88,0.05);' : '';
-        const avatarColor = `hsl(${(name.charCodeAt(0)*7)%360},60%,45%)`;
+        const avatarColor = `hsl(${(name.charCodeAt(0) * 7) % 360},60%,45%)`;
         const skinUrl = p.skin_name ? getSkinIconUrl(p.skin_name) : null;
-        const avId = `hav-${(p.username||'x').replace(/[^a-zA-Z0-9]/g,'_')}`;
+        const avId = `hav-${(p.username || 'x').replace(/[^a-zA-Z0-9]/g, '_')}`;
 
         // role badge
         let histRoleBadge = '';
@@ -3743,7 +4298,7 @@
         }
 
         const html = `<tr style="${rowStyle} cursor:pointer;" onclick="openHistoryPlayerModal('${p.username}')">
-          <td class="c" style="font-weight:700; color:${rank<=3?'var(--gold)':'var(--muted)'}; font-size:15px;">${medal || rank}</td>
+          <td class="c" style="font-weight:700; color:${rank <= 3 ? 'var(--gold)' : 'var(--muted)'}; font-size:15px;">${medal || rank}</td>
           <td><div style="display:flex; align-items:center; gap:10px;">
             <div id="${avId}" style="width:30px; height:30px; border-radius:50%; background:${avatarColor}; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px; flex-shrink:0; overflow:hidden;">${name.charAt(0).toUpperCase()}</div>
             <div><span style="font-weight:600;">${name}</span> ${badge} ${histRoleBadge}</div>
@@ -3779,12 +4334,12 @@
       }
       container.innerHTML = publishedMatches.map(m => {
         const rows = matchResults[String(m.id)] || [];
-        const medals = ['🥇','🥈','🥉'];
+        const medals = ['🥇', '🥈', '🥉'];
         const rowsHTML = rows.length ? rows.map((r, i) => {
           const rank = i + 1;
           const name = r.display_name || r.username || '?';
           return `<tr>
-            <td class="c" style="font-weight:700; color:${rank<=3?'var(--gold)':'var(--muted)'};">${medals[i] || rank}</td>
+            <td class="c" style="font-weight:700; color:${rank <= 3 ? 'var(--gold)' : 'var(--muted)'};">${medals[i] || rank}</td>
             <td style="font-weight:600;">${name}</td>
             <td class="c">${r.position != null ? r.position + 'º' : '—'}</td>
             <td class="c" style="color:var(--pink);">${r.kills ?? 0}</td>
@@ -3819,7 +4374,7 @@
 
       const modal = document.getElementById('player-modal');
       const body = document.getElementById('modal-body-content');
-      body.innerHTML = '<div class="empty-msg" style="padding:40px">Cargando perfil...</div>';
+      body.innerHTML = '<div class="empty-msg" style="padding:60px; text-align:center;">Cargando perfil...</div>';
       modal.classList.add('active');
 
       const rawName = playerData.display_name || playerData.username;
@@ -3827,27 +4382,33 @@
       const initial = name.charAt(0).toUpperCase();
       const color = getAvatarColor(name);
 
-      // Role badge
-      let roleBadge = '';
+      // Skin avatar
+      const skinUrl = playerData.skin_name ? await getSkinIconUrl(playerData.skin_name) : null;
+      const avatarHTML = skinUrl
+        ? `<img src="${skinUrl}" onerror="this.parentNode.innerHTML='<div class=pm-avatar-letter>${initial}</div>'" />`
+        : `<div class="pm-avatar-letter" style="background:${color}">${initial}</div>`;
+
+      // Badges
+      let bHTML = '';
       if (playerData.role) {
         const r = playerData.role.toLowerCase();
-        if (r.includes('organizadora')) roleBadge = '<span class="badge" style="background:#ff4d94">ORGANIZADORA</span>';
-        else if (r.includes('coordinador')) roleBadge = '<span class="badge" style="background:#ffd700;color:black">COORDINADOR</span>';
+        if (r.includes('organizadora')) bHTML += `<span class="pm-badge org">👑 Organizadora</span>`;
+        else if (r.includes('coordinador')) bHTML += `<span class="pm-badge coord">🎯 Coordinador</span>`;
       }
-      const typeBadge = playerData.is_pro ? '<span class="badge pro">PRO</span>' : '<span class="badge cas">CASUAL</span>';
-      const badgeHTML = `${roleBadge} ${typeBadge}`.trim();
-
-      // Skin
-      const skinUrl = playerData.skin_name ? await getSkinIconUrl(playerData.skin_name) : null;
-      const avatarStyle = skinUrl
-        ? `background: url('${skinUrl}') center/cover; box-shadow: 0 0 0 3px rgba(255,255,255,0.1);`
-        : `background:${color}`;
-      const avatarContent = skinUrl ? '' : initial;
+      bHTML += playerData.is_pro
+        ? `<span class="pm-badge pro">⚡ PRO</span>`
+        : `<span class="pm-badge cas">🎮 Casual</span>`;
+      bHTML += `<span class="pm-badge" style="background:rgba(37,183,255,0.1);border:1px solid rgba(37,183,255,0.25);color:var(--muted);">📁 Historial</span>`;
 
       // Stats
-      const total_pts = playerData.total_points || 0;
-      const total_kills = playerData.total_kills || 0;
+      const total_pts     = playerData.total_points  || 0;
+      const total_kills   = playerData.total_kills   || 0;
       const matches_played = playerData.matches_played || 0;
+
+      // Bar widths from standings data
+      const total = total_pts || 1;
+      // Standings doesn't have breakdown so show a simple bar
+      const wKills = Math.min(100, Math.round((total_kills * 2 / (total_pts || 1)) * 100));
 
       // Build matches from match_results
       const matchResults = activeHistSnapshot.match_results || {};
@@ -3855,57 +4416,69 @@
       let matchesHTML = '';
       const publishedMatches = matchList.filter(m => m.is_published);
       if (!publishedMatches.length) {
-        matchesHTML = '<div class="empty-msg" style="padding:10px; font-size:13px">Sin partidas registradas.</div>';
+        matchesHTML = '<div class="empty-msg" style="padding:14px; font-size:13px;">Sin partidas registradas.</div>';
       } else {
         publishedMatches.forEach(m => {
           const results = matchResults[String(m.id)] || [];
           const myResult = results.find(r => r.username === username);
           if (!myResult) return;
           matchesHTML += `
-            <div class="match-card">
-              <div class="match-card-header">
-                <div class="match-number">P${m.match_number}</div>
-                <div class="match-stats">
-                  <div class="m-stat"><span class="m-stat-val pos">${myResult.position != null ? myResult.position + 'º' : '—'}</span><span class="m-stat-lbl">Top (${myResult.placement_points ?? 0} pts)</span></div>
-                  <div class="m-stat"><span class="m-stat-val kills">${myResult.kills ?? 0}</span><span class="m-stat-lbl">Kills (${myResult.kill_points ?? 0} pts)</span></div>
+            <div class="pm-match">
+              <div class="pm-match-num">P${m.match_number}</div>
+              <div class="pm-match-chips">
+                <div class="pm-chip">
+                  <span class="pm-chip-val pos">${myResult.position != null ? myResult.position + 'º' : '—'}</span>
+                  <span class="pm-chip-lbl">Top · ${myResult.placement_points ?? 0} pts</span>
+                </div>
+                <div class="pm-chip">
+                  <span class="pm-chip-val kills">${myResult.kills ?? 0}</span>
+                  <span class="pm-chip-lbl">Kills · ${myResult.kill_points ?? 0} pts</span>
                 </div>
               </div>
-              <div class="match-total">${myResult.total_points ?? 0} <span style="font-size:10px; color:var(--muted)">pts</span></div>
+              <div class="pm-match-pts">${myResult.total_points ?? 0}<span>pts</span></div>
             </div>`;
         });
-        if (!matchesHTML) matchesHTML = '<div class="empty-msg" style="padding:10px; font-size:13px">No participó en partidas publicadas.</div>';
+        if (!matchesHTML) matchesHTML = '<div class="empty-msg" style="padding:14px; font-size:13px;">No participó en partidas publicadas.</div>';
       }
 
       body.innerHTML = `
-        <div class="profile-header">
-          <div class="profile-avatar" style="${avatarStyle}">${avatarContent}</div>
-          <div>
-            <div class="profile-name">${esc(name)}</div>
-            <div style="margin-top:4px">${badgeHTML}</div>
-          </div>
-        </div>
-        
-        <div class="stats-grid">
-          <div class="stat-box">
-            <div class="stat-val">${total_pts}</div>
-            <div class="stat-lbl">Pts Totales</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-val">${total_kills}</div>
-            <div class="stat-lbl">Kills</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-val">${matches_played}</div>
-            <div class="stat-lbl">Partidas</div>
-          </div>
+        <div class="pm-hero">
+          <div class="pm-hero-bg"></div>
+          <div class="pm-hero-glow"></div>
+          <div class="pm-hero-grid"></div>
+          <div class="pm-hero-overlay"></div>
         </div>
 
-        <div class="feed-title">📊 Desglose por Partida</div>
-        <div class="match-breakdown">${matchesHTML}</div>
+        <div class="pm-info">
+          <div class="pm-avatar-wrap">${avatarHTML}</div>
+          <div class="pm-name">${esc(name)}</div>
+          <div class="pm-badges">${bHTML}</div>
 
-        <div style="margin-top:12px; padding:10px 14px; background:rgba(37,183,255,0.06); border:1px solid rgba(37,183,255,0.2); border-radius:8px; font-size:12px; color:var(--muted); text-align:center;">
-          📁 Datos del historial guardado
-        </div>`;
+          <div class="pm-body-grid">
+            <div class="pm-col-left">
+              <div class="pm-stats">
+                <div class="pm-stat">
+                  <div class="pm-stat-val">${total_pts}</div>
+                  <div class="pm-stat-lbl">Puntos</div>
+                </div>
+                <div class="pm-stat">
+                  <div class="pm-stat-val pink">${total_kills}</div>
+                  <div class="pm-stat-lbl">Kills</div>
+                </div>
+                <div class="pm-stat">
+                  <div class="pm-stat-val green">${matches_played}</div>
+                  <div class="pm-stat-lbl">Partidas</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pm-col-right">
+              <div class="pm-section-title">📊 Desglose por Partida</div>
+              <div class="pm-matches">${matchesHTML}</div>
+            </div>
+          </div>
+        </div>
+      `;
     }
 
   </script>
