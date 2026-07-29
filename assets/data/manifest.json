@@ -1,11 +1,15 @@
-﻿{
+{
   "snapshots": [
     {
-      "file": "snapshot.json",
-      "label": "Estado Actual del Torneo",
+      "file": "snapshot_20260728_203902.json",
+      "label": "Primer Torneo de yocapi",
       "date": "2026-07-28",
-      "description": "Snapshot despues de la partida 4.",
-      "top3": ["yocapi_pr", "NV BruteKitagawa", "Francis_Punch"]
+      "description": "26 de Julio de 2026",
+      "top3": [
+        "Francis_Punch",
+        "Kgam123453",
+        "NV BruteKitagawa"
+      ]
     }
   ]
 }
