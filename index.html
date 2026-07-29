@@ -3143,10 +3143,11 @@
         const badgeHTML = hideNames ? '' : (p.is_pro ? '<span class="badge pro">PRO</span>' : '<span class="badge cas">CASUAL</span>');
         
         let roleBadgeHTML = '';
-        if (!hideNames) {
-          if (p.role === 'Organizadora del torneo') {
+        if (!hideNames && p.role) {
+          let r = p.role.toLowerCase();
+          if (r.includes('organizadora')) {
             roleBadgeHTML = `<span style="display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;color:var(--gold);background:rgba(245,158,11,0.1);padding:4px 8px;border-radius:6px;margin-left:8px;border:1px solid rgba(245,158,11,0.3);text-transform:uppercase;letter-spacing:0.5px;">Organizadora</span>`;
-          } else if (p.role === 'Coordinador del torneo') {
+          } else if (r.includes('coordinador')) {
             roleBadgeHTML = `<span style="display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;color:var(--blue);background:rgba(37,183,255,0.1);padding:4px 8px;border-radius:6px;margin-left:8px;border:1px solid rgba(37,183,255,0.3);text-transform:uppercase;letter-spacing:0.5px;">Coordinador</span>`;
           }
         }
@@ -3397,8 +3398,11 @@
         const initial = name.charAt(0).toUpperCase();
         const color = getAvatarColor(name);
         let roleBadge = '';
-        if (p.role === 'organizadora') roleBadge = '<span class="badge" style="background:#ff4d94">ORGANIZADORA</span>';
-        else if (p.role === 'coordinador') roleBadge = '<span class="badge" style="background:#ffd700; color:black">COORDINADOR</span>';
+        if (p.role) {
+          let r = p.role.toLowerCase();
+          if (r.includes('organizadora')) roleBadge = '<span class="badge" style="background:#ff4d94">ORGANIZADORA</span>';
+          else if (r.includes('coordinador')) roleBadge = '<span class="badge" style="background:#ffd700; color:black">COORDINADOR</span>';
+        }
         
         let typeBadge = '';
         if (!hideNames) {
@@ -3548,34 +3552,13 @@
         settings = await setRes.json();
         window.OFFLINE_SNAPSHOT = null;
       } catch (err) {
-        // Fallback al snapshot si el API falla (ej. servidor apagado)
-        try {
-          // Primero leer el manifest para ver cual es el ultimo historial
-          const manifestRes = await fetch(`assets/data/manifest.json?_t=${Date.now()}`);
-          if (!manifestRes.ok) throw new Error('No manifest found');
-          const manifest = await manifestRes.json();
-          let snapFile = 'snapshot.json';
-          if (manifest.snapshots && manifest.snapshots.length > 0) {
-            snapFile = manifest.snapshots[0].file;
-          }
-          
-          const snapRes = await fetch(`assets/data/${snapFile}?_t=${Date.now()}`);
-          if (!snapRes.ok) throw new Error('No snapshot found');
-          const snapshot = await snapRes.json();
-          window.OFFLINE_SNAPSHOT = snapshot;
-          standings = snapshot.standings || [];
-          matches = snapshot.matches || [];
-          settings = snapshot.settings || { hide_names: false };
-          isOffline = true;
-          isOfflineMode = true; // No volver a intentar conexion
-        } catch (snapErr) {
-          console.error('API error and no snapshot found:', err);
-          dot.className = 'conn-dot error';
-          txt.textContent = 'Sin conexión';
-          document.getElementById('standings-updated').textContent = 'Error al cargar';
-          isOfflineMode = true; // Tampoco intentar mas
-          return;
-        }
+        // En vivo falla: el servidor esta apagado
+        dot.className = 'conn-dot error';
+        txt.textContent = 'Servidor apagado';
+        document.getElementById('standings-updated').textContent = 'Ve a la pestaña Historial';
+        isOfflineMode = true; // Dejar de intentar
+        renderGlobal([]); // Limpiar tabla
+        return;
       }
       hideNames = settings.hide_names;
       
@@ -3747,16 +3730,43 @@
         const name = p.display_name || p.username || '?';
         const badge = p.is_pro ? '<span class="badge pro" style="font-size:10px; padding:2px 7px;">PRO</span>' : '';
         const rowStyle = rank === 1 ? 'background:rgba(249,199,79,0.06);' : rank === 2 ? 'background:rgba(184,193,204,0.05);' : rank === 3 ? 'background:rgba(217,144,88,0.05);' : '';
-        return `<tr style="${rowStyle}">
+        const avatarColor = `hsl(${(name.charCodeAt(0)*7)%360},60%,45%)`;
+        const skinUrl = p.skin_name ? getSkinIconUrl(p.skin_name) : null;
+        const avId = `hav-${(p.username||'x').replace(/[^a-zA-Z0-9]/g,'_')}`;
+
+        // role badge
+        let histRoleBadge = '';
+        if (p.role) {
+          const r = p.role.toLowerCase();
+          if (r.includes('organizadora')) histRoleBadge = `<span class="badge" style="background:#ff4d94;font-size:10px;">ORG</span>`;
+          else if (r.includes('coordinador')) histRoleBadge = `<span class="badge" style="background:#ffd700;color:#000;font-size:10px;">COORD</span>`;
+        }
+
+        const html = `<tr style="${rowStyle} cursor:pointer;" onclick="openHistoryPlayerModal('${p.username}')">
           <td class="c" style="font-weight:700; color:${rank<=3?'var(--gold)':'var(--muted)'}; font-size:15px;">${medal || rank}</td>
           <td><div style="display:flex; align-items:center; gap:10px;">
-            <div style="width:30px; height:30px; border-radius:50%; background:hsl(${(name.charCodeAt(0)*7)%360},60%,45%); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px;">${name.charAt(0).toUpperCase()}</div>
-            <span style="font-weight:600;">${name}</span> ${badge}
+            <div id="${avId}" style="width:30px; height:30px; border-radius:50%; background:${avatarColor}; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px; flex-shrink:0; overflow:hidden;">${name.charAt(0).toUpperCase()}</div>
+            <div><span style="font-weight:600;">${name}</span> ${badge} ${histRoleBadge}</div>
           </div></td>
           <td class="c" style="font-weight:700; color:var(--blue);">${p.total_points ?? 0}</td>
           <td class="c" style="color:var(--pink);">${p.total_kills ?? 0}</td>
           <td class="c" style="color:var(--muted);">${p.matches_played ?? 0}</td>
         </tr>`;
+
+        // Async load skin
+        if (p.skin_name) {
+          getSkinIconUrl(p.skin_name).then(url => {
+            if (url) {
+              const el = document.getElementById(avId);
+              if (el) {
+                el.innerHTML = `<img src="${url}" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentNode.textContent='${name.charAt(0).toUpperCase()}'" />`;
+                el.style.background = 'transparent';
+              }
+            }
+          });
+        }
+
+        return html;
       }).join('');
     }
 
@@ -3797,6 +3807,105 @@
             </table></div>
           </div>`;
       }).join('');
+    }
+
+    /* ── Modal de jugador desde el Historial ───────────────────── */
+    async function openHistoryPlayerModal(username) {
+      if (!activeHistSnapshot) return;
+
+      const standings = activeHistSnapshot.standings || [];
+      const playerData = standings.find(p => p.username === username);
+      if (!playerData) return;
+
+      const modal = document.getElementById('player-modal');
+      const body = document.getElementById('modal-body-content');
+      body.innerHTML = '<div class="empty-msg" style="padding:40px">Cargando perfil...</div>';
+      modal.classList.add('active');
+
+      const rawName = playerData.display_name || playerData.username;
+      const name = rawName;
+      const initial = name.charAt(0).toUpperCase();
+      const color = getAvatarColor(name);
+
+      // Role badge
+      let roleBadge = '';
+      if (playerData.role) {
+        const r = playerData.role.toLowerCase();
+        if (r.includes('organizadora')) roleBadge = '<span class="badge" style="background:#ff4d94">ORGANIZADORA</span>';
+        else if (r.includes('coordinador')) roleBadge = '<span class="badge" style="background:#ffd700;color:black">COORDINADOR</span>';
+      }
+      const typeBadge = playerData.is_pro ? '<span class="badge pro">PRO</span>' : '<span class="badge cas">CASUAL</span>';
+      const badgeHTML = `${roleBadge} ${typeBadge}`.trim();
+
+      // Skin
+      const skinUrl = playerData.skin_name ? await getSkinIconUrl(playerData.skin_name) : null;
+      const avatarStyle = skinUrl
+        ? `background: url('${skinUrl}') center/cover; box-shadow: 0 0 0 3px rgba(255,255,255,0.1);`
+        : `background:${color}`;
+      const avatarContent = skinUrl ? '' : initial;
+
+      // Stats
+      const total_pts = playerData.total_points || 0;
+      const total_kills = playerData.total_kills || 0;
+      const matches_played = playerData.matches_played || 0;
+
+      // Build matches from match_results
+      const matchResults = activeHistSnapshot.match_results || {};
+      const matchList = activeHistSnapshot.matches || [];
+      let matchesHTML = '';
+      const publishedMatches = matchList.filter(m => m.is_published);
+      if (!publishedMatches.length) {
+        matchesHTML = '<div class="empty-msg" style="padding:10px; font-size:13px">Sin partidas registradas.</div>';
+      } else {
+        publishedMatches.forEach(m => {
+          const results = matchResults[String(m.id)] || [];
+          const myResult = results.find(r => r.username === username);
+          if (!myResult) return;
+          matchesHTML += `
+            <div class="match-card">
+              <div class="match-card-header">
+                <div class="match-number">P${m.match_number}</div>
+                <div class="match-stats">
+                  <div class="m-stat"><span class="m-stat-val pos">${myResult.position != null ? myResult.position + 'º' : '—'}</span><span class="m-stat-lbl">Top (${myResult.placement_points ?? 0} pts)</span></div>
+                  <div class="m-stat"><span class="m-stat-val kills">${myResult.kills ?? 0}</span><span class="m-stat-lbl">Kills (${myResult.kill_points ?? 0} pts)</span></div>
+                </div>
+              </div>
+              <div class="match-total">${myResult.total_points ?? 0} <span style="font-size:10px; color:var(--muted)">pts</span></div>
+            </div>`;
+        });
+        if (!matchesHTML) matchesHTML = '<div class="empty-msg" style="padding:10px; font-size:13px">No participó en partidas publicadas.</div>';
+      }
+
+      body.innerHTML = `
+        <div class="profile-header">
+          <div class="profile-avatar" style="${avatarStyle}">${avatarContent}</div>
+          <div>
+            <div class="profile-name">${esc(name)}</div>
+            <div style="margin-top:4px">${badgeHTML}</div>
+          </div>
+        </div>
+        
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-val">${total_pts}</div>
+            <div class="stat-lbl">Pts Totales</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">${total_kills}</div>
+            <div class="stat-lbl">Kills</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">${matches_played}</div>
+            <div class="stat-lbl">Partidas</div>
+          </div>
+        </div>
+
+        <div class="feed-title">📊 Desglose por Partida</div>
+        <div class="match-breakdown">${matchesHTML}</div>
+
+        <div style="margin-top:12px; padding:10px 14px; background:rgba(37,183,255,0.06); border:1px solid rgba(37,183,255,0.2); border-radius:8px; font-size:12px; color:var(--muted); text-align:center;">
+          📁 Datos del historial guardado
+        </div>`;
     }
 
   </script>
