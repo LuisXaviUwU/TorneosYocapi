@@ -906,8 +906,8 @@
     <div class="modal-body" style="padding:0;">
       <div style="max-height:500px;overflow-y:auto;padding:20px;">
         <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
-          Ajuste manual de kills (negativo para restar) y puntos extra (desafios).<br>
-          Se recalcula automaticamente al guardar.
+          Ajuste manual de kills (negativo para restar).<br>
+          Se recalcula automáticamente al guardar.
         </p>
         <table class="results-table" style="font-size:13px;">
           <thead>
@@ -915,7 +915,6 @@
               <th>Jugador</th>
               <th style="text-align:center;">Kills</th>
               <th style="text-align:center;">Ajuste</th>
-              <th style="text-align:center;">Bonus</th>
             </tr>
           </thead>
           <tbody id="adjust-table-body"></tbody>
@@ -923,6 +922,36 @@
         <div style="margin-top:16px;display:flex;justify-content:flex-end;gap:8px;">
           <button class="btn btn-ghost" onclick="closeModal('modal-adjust')">Cancelar</button>
           <button class="btn btn-primary" id="btn-save-adjust" onclick="saveAdjust()">Guardar Ajustes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: Desafíos Completados -->
+<div class="modal-overlay" id="modal-challenges">
+  <div class="modal" style="max-width:500px;">
+    <div class="modal-header">
+      <div class="modal-title" id="challenges-title">Desafíos Completados</div>
+      <button class="close-btn" onclick="closeModal('modal-challenges')">✕</button>
+    </div>
+    <div class="modal-body" style="padding:0;">
+      <div style="max-height:500px;overflow-y:auto;padding:20px;">
+        <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+          Añade puntos a los jugadores por haber completado desafíos dentro del torneo.
+        </p>
+        <table class="results-table" style="font-size:13px;">
+          <thead>
+            <tr>
+              <th>Jugador</th>
+              <th style="text-align:center;width:120px;">Pts. Desafíos</th>
+            </tr>
+          </thead>
+          <tbody id="challenges-table-body"></tbody>
+        </table>
+        <div style="margin-top:16px;display:flex;justify-content:flex-end;gap:8px;">
+          <button class="btn btn-ghost" onclick="closeModal('modal-challenges')">Cancelar</button>
+          <button class="btn btn-primary" id="btn-save-challenges" onclick="saveChallenges()">Guardar Puntos</button>
         </div>
       </div>
     </div>
@@ -1316,7 +1345,8 @@ function renderMatches() {
       <div class="match-btns">
         <button class="btn btn-ghost" style="padding:6px 12px;font-size:12px;" onclick="togglePublishMatch(${m.id}, ${!m.is_published})">${toggleBtnText}</button>
         <button class="btn btn-ghost" style="padding:6px 12px;font-size:12px;" onclick="viewKillfeed(${m.id}, ${m.match_number})">Killfeed</button>
-        <button class="btn btn-ghost" style="padding:6px 12px;font-size:12px;" onclick="openAdjustModal(${m.id}, ${m.match_number})">Ajustar</button>
+        <button class="btn btn-ghost" style="padding:6px 12px;font-size:12px;" onclick="openAdjustModal(${m.id}, ${m.match_number})">Ajustar Kills</button>
+        <button class="btn btn-ghost" style="padding:6px 12px;font-size:12px;" onclick="openChallengesModal(${m.id}, ${m.match_number})">Desafíos</button>
         <a href="../index.html" target="_blank" class="btn btn-ghost" style="padding:6px 12px;font-size:12px;">Tabla</a>
         <button class="btn btn-danger" style="padding:6px 12px;font-size:12px;" onclick="removeMatch(${m.id})">Borrar</button>
       </div>
@@ -1364,9 +1394,9 @@ let currentAdjustMatchId = null;
 
 async function openAdjustModal(matchId, matchNumber) {
   currentAdjustMatchId = matchId;
-  document.getElementById('adjust-title').textContent = `Ajuste — Partida #${matchNumber}`;
+  document.getElementById('adjust-title').textContent = `Ajuste de Kills — Partida #${matchNumber}`;
   const tbody = document.getElementById('adjust-table-body');
-  tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;padding:20px;color:var(--muted);">Cargando...</td></tr>';
+  tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;padding:20px;color:var(--muted);">Cargando...</td></tr>';
   openModal('modal-adjust');
   try {
     const res = await fetch(`${API}/matches/${matchId}/results`);
@@ -1378,12 +1408,11 @@ async function openAdjustModal(matchId, matchNumber) {
         <td style="font-weight:700;">${esc(r.display_name || r.username)}<input type="hidden" class="adj-username" value="${esc(r.username)}" /></td>
         <td style="text-align:center;">${r.kills}</td>
         <td style="text-align:center;"><input type="number" class="form-input-sm adj-value" min="-99" max="99" value="${r.kill_adjustment || 0}" style="width:72px;" /></td>
-        <td style="text-align:center;"><input type="number" class="form-input-sm bonus-value" min="0" max="999" value="${r.bonus_points || 0}" style="width:72px;" /></td>
       `;
       tbody.appendChild(tr);
     });
   } catch(e) {
-    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;padding:20px;color:var(--danger);">Error al cargar resultados</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;padding:20px;color:var(--danger);">Error al cargar resultados</td></tr>';
   }
 }
 
@@ -1396,7 +1425,6 @@ async function saveAdjust() {
   for (const tr of rows) {
     const username = tr.querySelector('.adj-username')?.value;
     const adjust   = parseInt(tr.querySelector('.adj-value')?.value) || 0;
-    const bonus    = parseInt(tr.querySelector('.bonus-value')?.value) || 0;
     if (!username) continue;
     try {
       const res1 = await fetch(`${API}/matches/${currentAdjustMatchId}/results/adjust`, {
@@ -1405,18 +1433,67 @@ async function saveAdjust() {
         body: JSON.stringify({ username, adjustment: adjust })
       });
       if (res1.ok) saved++;
-      const res2 = await fetch(`${API}/matches/${currentAdjustMatchId}/results/bonus`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, bonus })
-      });
-      if (res2.ok) saved++;
     } catch(e) { errors++; }
   }
   btn.disabled = false; btn.textContent = 'Guardar Ajustes';
   if (saved > 0) {
     showToast(`Ajustes guardados (${saved} ok, ${errors} error(es))`, 'success');
     closeModal('modal-adjust');
+    await fetchDashboard();
+    await fetchMatches();
+  } else {
+    showToast('No se pudo guardar', 'error');
+  }
+}
+
+let currentChallengesMatchId = null;
+
+async function openChallengesModal(matchId, matchNumber) {
+  currentChallengesMatchId = matchId;
+  document.getElementById('challenges-title').textContent = `Desafíos Completados — Partida #${matchNumber}`;
+  const tbody = document.getElementById('challenges-table-body');
+  tbody.innerHTML = '<tr><td colspan="2" style="text-align:center;padding:20px;color:var(--muted);">Cargando...</td></tr>';
+  openModal('modal-challenges');
+  try {
+    const res = await fetch(`${API}/matches/${matchId}/results`);
+    const results = await res.json();
+    tbody.innerHTML = '';
+    results.forEach(r => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td style="font-weight:700;">${esc(r.display_name || r.username)}<input type="hidden" class="ch-username" value="${esc(r.username)}" /></td>
+        <td style="text-align:center;"><input type="number" class="form-input-sm bonus-value" min="0" max="999" value="${r.bonus_points || 0}" style="width:72px;" /></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  } catch(e) {
+    tbody.innerHTML = '<tr><td colspan="2" style="text-align:center;padding:20px;color:var(--danger);">Error al cargar resultados</td></tr>';
+  }
+}
+
+async function saveChallenges() {
+  if (!currentChallengesMatchId) return;
+  const rows = document.querySelectorAll('#challenges-table-body tr');
+  const btn = document.getElementById('btn-save-challenges');
+  btn.disabled = true; btn.textContent = 'Guardando...';
+  let saved = 0; let errors = 0;
+  for (const tr of rows) {
+    const username = tr.querySelector('.ch-username')?.value;
+    const bonus    = parseInt(tr.querySelector('.bonus-value')?.value) || 0;
+    if (!username) continue;
+    try {
+      const res = await fetch(`${API}/matches/${currentChallengesMatchId}/results/bonus`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, bonus })
+      });
+      if (res.ok) saved++;
+    } catch(e) { errors++; }
+  }
+  btn.disabled = false; btn.textContent = 'Guardar Puntos';
+  if (saved > 0) {
+    showToast(`Puntos de desafíos guardados (${saved} ok, ${errors} error(es))`, 'success');
+    closeModal('modal-challenges');
     await fetchDashboard();
     await fetchMatches();
   } else {
